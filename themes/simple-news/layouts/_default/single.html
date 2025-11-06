@@ -1,0 +1,7 @@
+{{ define "content" }}
+<article>
+  <h1 class="post-title">{{ .Title }}</h1>
+  <p class="meta">{{ .Date.Format "2006-01-02" }}{{ with .Params.tags }} ・ {{ range $i, $t := . }}{{ if $i }}, {{ end }}#{{ $t }}{{ end }}{{ end }}</p>
+  <div class="content">{{ .Content }}</div>
+</article>
+{{ end }}

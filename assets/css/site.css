@@ -1,0 +1,15 @@
+/* Minimal styles to keep things neat */
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic UI", "Yu Gothic", Meiryo, sans-serif; line-height: 1.7; }
+header, footer { padding: 1rem 0; }
+nav a { margin-right: 1rem; text-decoration: none; }
+.container { max-width: 960px; margin: 0 auto; padding: 0 1rem; }
+.post-title { font-size: 1.8rem; margin-top: 0.6rem; }
+.meta { color: #666; font-size: .9rem; }
+.card { border: 1px solid #eee; border-radius: 8px; padding: 1rem; margin: 1rem 0; }
+.btn { display: inline-block; border: 1px solid #444; padding: .5rem 1rem; border-radius: 6px; text-decoration: none; }
+.hero { padding: 2rem 0; }
+.hero h1 { margin-bottom: .2rem; }
+.hero p { margin-top: .4rem; }
+hr { border: none; border-top: 1px solid #eee; margin: 2rem 0; }
+footer .muted { color: #666; }
+.searchbox { margin: 1rem 0; }

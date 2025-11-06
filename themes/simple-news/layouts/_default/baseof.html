@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ if .Title }}{{ .Title }} – {{ end }}{{ .Site.Title }}</title>
+    <meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Site.Params.site_description }}{{ end }}" />
+
+    {{ partial "seo/opengraph.html" . }}
+    {{ partial "seo/person.jsonld.html" . }}
+    {{ partial "seo/website.jsonld.html" . }}
+    {{ if eq .Kind "page" }}{{ partial "seo/article.jsonld.html" . }}{{ end }}
+
+    {{ $css := resources.Get "css/site.css" | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $css.Permalink }}" integrity="{{ $css.Data.Integrity }}">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          {{ range .Site.Menus.main }}
+            <a href="{{ .URL }}">{{ .Name }}</a>
+          {{ end }}
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      {{ block "content" . }}{{ end }}
+    </main>
+
+    <footer>
+      <div class="container">
+        <hr>
+        <p class="muted">© {{ now.Format "2006" }} {{ .Site.Params.authorName }} / <a href="/media-kit/">Media Kit</a></p>
+      </div>
+    </footer>
+
+    {{ if eq .RelPermalink "/search/" }}
+      <script src="/pagefind/pagefind.js"></script>
+      <script>
+        window.addEventListener('DOMContentLoaded', async () => {
+          const ui = await new PagefindUI({ element: "#search", showSubResults: true });
+        });
+      </script>
+    {{ end }}
+  </body>
+</html>

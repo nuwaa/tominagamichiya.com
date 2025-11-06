@@ -1,0 +1,11 @@
+{{ define "content" }}
+<h1>{{ .Title }}</h1>
+{{ range .Paginator.Pages }}
+  <div class="card">
+    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    <p class="meta">{{ .Date.Format "2006-01-02" }}</p>
+    <p>{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}</p>
+  </div>
+{{ end }}
+{{ template "_internal/pagination.html" . }}
+{{ end }}

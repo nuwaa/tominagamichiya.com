@@ -1,0 +1,15 @@
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ .Site.Params.authorName }}",
+  "url": "{{ .Site.BaseURL }}",
+  "jobTitle": "ITジャーナリスト（サイバー・偽情報）",
+  "sameAs": [
+    "https://x.com/{{ .Site.Params.x_news_account }}",
+    "https://x.com/{{ .Site.Params.x_personal_account }}"
+  ]
+}
+</script>
+{{ end }}

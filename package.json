@@ -1,0 +1,12 @@
+{
+  "name": "tominagamichiya-hugo-starter",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "hugo server -D",
+    "build": "hugo --minify && npx pagefind --site public"
+  },
+  "devDependencies": {
+    "pagefind": "^1.2.0"
+  }
+}

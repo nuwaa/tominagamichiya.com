@@ -1,0 +1,15 @@
+{{/* Basic OG/Twitter meta using page/site params */}}
+{{ $title := cond (ne .Title "") (printf "%s – %s" .Title .Site.Title) .Site.Title }}
+{{ $desc := cond (isset .Params "description") .Params.description .Site.Params.site_description }}
+
+<meta property="og:type" content="{{ if eq .Kind "page" }}article{{ else }}website{{ end }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:image" content="{{ .Site.BaseURL }}media/og-default.jpg">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $desc }}">
+<meta name="twitter:image" content="{{ .Site.BaseURL }}media/og-default.jpg">

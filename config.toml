@@ -1,0 +1,38 @@
+
+baseURL = "https://tominagamichiya.com/"
+title = "富永道也｜ITジャーナリスト（サイバー・偽情報）"
+languageCode = "ja"
+hasCJKLanguage = true
+paginate = 10
+theme = "simple-news"
+
+[params]
+  authorName = "富永 道也"
+  x_news_account = "Michiya_ITJ"   # 予定の新アカ名（後で置換可）
+  x_personal_account = "4989er"
+  site_description = "サイバー事故と偽情報を“生活の言葉”で30秒解説。地上波向けの分かりやすさに全振り。"
+
+[menu]
+  [[menu.main]]
+    name = "ホーム"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Topics"
+    url = "/topics/"
+    weight = 2
+  [[menu.main]]
+    name = "Articles"
+    url = "/articles/"
+    weight = 3
+  [[menu.main]]
+    name = "Media Kit"
+    url = "/media-kit/"
+    weight = 4
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 5
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
