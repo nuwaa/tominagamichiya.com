@@ -3,5 +3,5 @@
 </head><body>
 <header><a href="{{ "/" | relURL }}">tominagamichiya.com</a></header>
 <main>{{ block "main" . }}{{ end }}</main>
-<footer><small>&copy; {{ now.Year }} tominagamichiya</small></footer>
+{{ partial "footer.html" . }}
 </body></html>
