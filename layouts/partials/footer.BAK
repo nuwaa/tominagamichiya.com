@@ -1,1 +1,2 @@
+<hr>
 <footer class="site-footer"><small>&copy; 2025 {{ site.Title }}</small></footer>
