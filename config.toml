@@ -38,7 +38,11 @@ theme = "simple-news"
     weight = 5
 
 [outputs]
-  home = ["HTML", "RSS"]
+  home     = ["HTML", "RSS"]   # JSONは一旦外す
+  section  = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  term     = ["HTML", "RSS"]
+  page     = ["HTML"]
 
 [markup]
   [markup.goldmark]
