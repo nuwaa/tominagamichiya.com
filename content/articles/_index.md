@@ -1,4 +1,5 @@
 ---
 title: "Articles"
-description: "代表記事（TV連動の型）"
+description: "最新の記事一覧"
+# 必要ならここで並び替えや既定タグなども設定できる
 ---

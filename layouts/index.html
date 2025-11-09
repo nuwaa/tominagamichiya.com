@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <h2>Latest Articles</h2>
+  <ul>
+  {{ $arts := where .Site.RegularPages "Section" "articles" }}
+  {{ range first 5 (sort $arts "Date" "desc") }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{ if not .Date.IsZero }}<small>{{ .Date.Format "2006-01-02" }}</small>{{ end }}
+    </li>
+  {{ end }}
+  </ul>
+  <p><a href="/articles/">すべての記事 →</a></p>
+{{ end }}

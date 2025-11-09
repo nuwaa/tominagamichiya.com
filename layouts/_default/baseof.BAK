@@ -1,0 +1,8 @@
+<!doctype html><html lang="ja"><head>
+<meta charset="utf-8"><title>{{ block "title" . }}{{ .Title }}{{ end }}</title>
+</head><body>
+<header><a href="{{ "/" | relURL }}">tominagamichiya.com</a></header>
+<main>{{ block "main" . }}{{ end }}</main>
+<footer class="site-footer"><p>© {{ now.Format "2006" }} {{ site.Title }}</p>
+</footer>
+</body></html>
