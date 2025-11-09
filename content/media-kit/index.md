@@ -13,4 +13,4 @@ ITジャーナリスト。サイバー事故と偽情報を“生活の言葉”
 - サイト: https://tominagamichiya.com  
 - X（ニュース用）: https://x.com/tominagamichiya  
 - X（パーソナル）: https://x.com/4989er  
-- メール: news@tominagamichiya.com
+- メール: desk@tominagamichiya.com
