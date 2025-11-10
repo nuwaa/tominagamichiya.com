@@ -14,6 +14,7 @@ theme = "simple-news"
   x_news_account = "tominagamichiya"   # 予定の新アカ名（後で置換可）
   x_personal_account = "4989er"
   site_description = "サイバー事故と偽情報対策を“生活の言葉”で30秒解説。地上波向けの分かりやすさに全振り。"
+  customCSS = ["css/site.css"]
 
 [menu]
   [[menu.main]]
