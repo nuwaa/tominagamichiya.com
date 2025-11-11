@@ -1,8 +1,13 @@
-{{ define "title" }}{{ .Title }}{{ end }}
 {{ define "main" }}
 <article>
   <h1>{{ .Title }}</h1>
-  <p><small>{{ .Date.Format "2006-01-02" }}</small></p>
-  {{ .Content }}
+
+  <p class="post-date">
+    ŒöŠJ“úF{{ .Date.Format "2006-01-02" }}
+  </p>
+
+  <div class="post-body">
+    {{ .Content }}
+  </div>
 </article>
 {{ end }}

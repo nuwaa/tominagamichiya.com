@@ -9,6 +9,5 @@
       <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
     {{ end }}
   </ul>
-  <p><a href="{{ "articles/" | relURL }}">すべての記事を見る</a></p>
-
+  <br><p><a href="{{ "articles/" | relURL }}">すべての記事を見る</a></p>
 {{ end }}

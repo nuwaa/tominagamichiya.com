@@ -6,7 +6,10 @@
   <ul>
     {{ $arts := where .Site.RegularPages "Section" "articles" }}
     {{ range first 5 (sort $arts "Date" "desc") }}
-      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <span class="post-date">（{{ .Date.Format "2006-01-02" }}）</span>
+      </li>
     {{ end }}
   </ul>
   <br><p><a href="{{ "articles/" | relURL }}">すべての記事を見る</a></p>
