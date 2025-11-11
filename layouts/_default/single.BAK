@@ -2,9 +2,8 @@
 <article>
   <h1>{{ .Title }}</h1>
 
-  <p class="post-date">
-    ŒöŠJ“úF{{ .Date.Format "2006-01-02" }}
-  </p>
+  {{ with .Date }}å…¬é–‹æ—¥ï¼š{{ .Format "2006-01-02" }}{{ end }}
+  {{ with .Lastmod }}æ›´æ–°æ—¥ï¼š{{ .Format "2006-01-02" }}{{ end }}
 
   <div class="post-body">
     {{ .Content }}

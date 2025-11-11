@@ -2,9 +2,7 @@
 <article>
   <h1>{{ .Title }}</h1>
 
-  <p class="post-date">
-    {{ .Date.Format "2006-01-02" }}
-  </p>
+  {{ with .Date }}公開日：{{ .Format "2006-01-02" }}{{ end }}　{{ with .Lastmod }}更新日：{{ .Format "2006-01-02" }}{{ end }}
 
   <div class="post-body">
     {{ .Content }}
