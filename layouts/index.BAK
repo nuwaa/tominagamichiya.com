@@ -6,8 +6,18 @@
   <ul>
     {{ $arts := where .Site.RegularPages "Section" "articles" }}
     {{ range first 5 (sort $arts "Date" "desc") }}
-      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <span class="post-date">（{{ .Date.Format "2006-01-02" }}）</span>
+      </li>
     {{ end }}
   </ul>
-  <br><p><a href="{{ "articles/" | relURL }}">すべての記事を見る</a></p>
+  <p><a href="{{ "articles/" | relURL }}">すべての記事を見る</a></p>
+<h2>Categories</h2>
+<ul>
+  {{ range $name, $term := .Site.Taxonomies.categories }}
+    <li><a href="{{ (printf "/categories/%s/" $name) | relURL }}">{{ $name }} ({{ len $term.Pages }})</a></li>
+  {{ end }}
+</ul>
+
 {{ end }}

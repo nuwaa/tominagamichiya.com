@@ -1,11 +1,22 @@
 {{ define "main" }}
-<article>
+<article class="post">
   <h1>{{ .Title }}</h1>
 
+  {{ partial "breadcrumbs.html" . }}
+  <br>
   {{ with .Date }}公開日：{{ .Format "2006-01-02" }}{{ end }}　{{ with .Lastmod }}更新日：{{ .Format "2006-01-02" }}{{ end }}
 
-  <div class="post-body">
-    {{ .Content }}
-  </div>
+  <div class="post-body">{{ .Content }}</div>
+
+  <hr>
+  <section class="related">
+    <h2>関連記事</h2>
+    <ul>
+      {{ $cur := . }}
+      {{ range first 5 (where (where .Site.RegularPages "Section" .Section) "Permalink" "ne" .Permalink) }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+  </section>
 </article>
 {{ end }}

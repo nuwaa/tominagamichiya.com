@@ -1,8 +1,10 @@
 
 baseURL = "https://tominagamichiya.com/"
-title = "富永道也｜ITジャーナリスト（サイバー・偽情報対策）"
+title = "富永道也｜ITジャーナリスト"
 languageCode = "ja"
 hasCJKLanguage = true
+pagenate = 10
+enableRobotsTXT = true
 
 [pagination]
   pageSize = 10
@@ -10,8 +12,11 @@ hasCJKLanguage = true
 theme = "simple-news"
 
 [params]
-  authorName = "富永 道也"
-  x_news_account = "tominagamichiya"   # 予定の新アカ名（後で置換可）
+  authorName = "富永道也"
+  author = "富永道也"
+  publisher = "永富華"
+  twitter = "@tominagamichiya"
+  x_news_account = "tominagamichiya"
   x_personal_account = "4989er"
   site_description = "サイバー事故と偽情報対策を“生活の言葉”で30秒解説。地上波向けの分かりやすさに全振り。"
   customCSS = ["css/site.css"]
@@ -39,7 +44,7 @@ theme = "simple-news"
     weight = 5
 
 [outputs]
-  home     = ["HTML", "RSS"]   # JSONは一旦外す
+  home     = ["HTML", "RSS"]
   section  = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
   term     = ["HTML", "RSS"]
@@ -49,3 +54,12 @@ theme = "simple-news"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[sitemap]
+  changefreq = "daily"
+  priority = 0.7
+  filename = "sitemap.xml"

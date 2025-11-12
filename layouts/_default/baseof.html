@@ -1,6 +1,22 @@
 <!doctype html><html lang="ja"><head>
-<meta charset="utf-8"><title>{{ block "title" . }}{{ .Title }}{{ end }}</title>
-</head><body>
+<meta charset="utf-8">
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+
+<meta name="description" content="{{ with .Params.description }}{{ . | plainify }}{{ else }}{{ .Summary | plainify | truncate 150 }}{{ end }}">
+<link rel="canonical" href="{{ .Permalink }}">
+
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:description" content="{{ with .Params.description }}{{ . | plainify }}{{ else }}{{ .Summary | plainify | truncate 150 }}{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+<meta property="og:image" content="{{ with .Params.image }}{{ . | absURL }}{{ else }}{{ "images/ogp-default.png" | absURL }}{{ end }}">
+
+<meta name="twitter:card" content="summary_large_image">
+{{ with .Site.Params.twitter }}<meta name="twitter:site" content="{{ . }}">{{ end }}
+<link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ "index.xml" | absURL }}">
+{{ partial "structured-data.html" . }}
+</head>
+<body>
 <header><a href="{{ "/" | relURL }}">tominagamichiya.com</a></header>
 <main>{{ block "main" . }}{{ end }}</main>
 {{ partial "footer.html" . }}

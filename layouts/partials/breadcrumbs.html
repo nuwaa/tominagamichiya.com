@@ -1,0 +1,18 @@
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement": [
+   { "@type":"ListItem","position":1,"name":"Home","item":"{{ .Site.BaseURL }}"},
+   {{- if .Section -}}
+   { "@type":"ListItem","position":2,"name":{{ .Section | title | jsonify }},"item":"{{ (printf "/%s/" .Section) | absURL }}"},
+   {{- end -}}
+   { "@type":"ListItem","position":3,"name":{{ .Title | jsonify }},"item":"{{ .Permalink }}"}
+ ]
+}
+</script>
+<nav aria-label="breadcrumb" class="breadcrumbs">
+  <a href="{{ .Site.BaseURL }}">Home</a>
+  {{ if .Section }} › <a href="{{ (printf "/%s/" .Section) | relURL }}">{{ .Section | title }}</a>{{ end }}
+  › <span>{{ .Title }}</span>
+</nav>
