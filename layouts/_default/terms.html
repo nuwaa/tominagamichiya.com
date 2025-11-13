@@ -1,0 +1,29 @@
+{{ define "main" }}
+<main class="container">
+  <header class="page-header">
+    <h1>{{ .Title }}</h1>
+    <p class="page-lead">
+      {{ if eq .Data.Singular "tag" }}
+        このサイトで使用しているタグの一覧です。
+      {{ else if eq .Data.Singular "category" }}
+        記事のカテゴリ一覧です。気になるテーマから記事を探せます。
+      {{ else }}
+        分類（{{ .Data.Plural }}) の一覧です。
+      {{ end }}
+    </p>
+  </header>
+
+  <section class="terms-list">
+    <ul>
+      {{ range $name, $term := .Data.Terms }}
+        <li class="term-item">
+          <a href="{{ $term.Page.RelPermalink }}">
+            <span class="term-name">{{ $name }}</span>
+            <span class="term-count">（{{ len $term.Pages }} 件）</span>
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </section>
+</main>
+{{ end }}

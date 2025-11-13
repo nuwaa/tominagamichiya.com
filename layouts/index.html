@@ -19,4 +19,5 @@
     <li><a href="{{ (printf "/categories/%s/" $name) | relURL }}">{{ $name }} ({{ len $term.Pages }})</a></li>
   {{ end }}
 </ul>
+<h2><a href="{{ "tags/" | relURL }}">Tags</a></h2>
 {{ end }}

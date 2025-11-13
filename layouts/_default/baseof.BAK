@@ -14,6 +14,7 @@
 <meta name="twitter:card" content="summary_large_image">
 {{ with .Site.Params.twitter }}<meta name="twitter:site" content="{{ . }}">{{ end }}
 <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ "index.xml" | absURL }}">
+{{ partial "structured-data.html" . }}
 </head>
 <body>
 <header><a href="{{ "/" | relURL }}">tominagamichiya.com</a></header>

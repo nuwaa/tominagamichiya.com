@@ -1,0 +1,10 @@
+.page-header { margin-bottom: 2rem; }
+.page-lead { color: #666; }
+
+.terms-list .term-item { margin: 0.25rem 0; }
+.term-name { font-weight: bold; }
+
+.post-list .post-item { margin-bottom: 1.5rem; }
+.post-meta { font-size: 0.9em; color: #777; }
+.post-summary { margin: 0.3rem 0 0.5rem; color: #444; }
+.post-more a { font-size: 0.9em; }

@@ -1,0 +1,43 @@
+{{ define "main" }}
+<main class="container">
+  <header class="page-header">
+    <h1>
+      {{ if eq .Data.Singular "tag" }}
+        タグ：{{ .Data.Term }}
+      {{ else if eq .Data.Singular "category" }}
+        カテゴリ：{{ .Data.Term }}
+      {{ else }}
+        {{ .Title }}
+      {{ end }}
+    </h1>
+    <p class="page-lead">
+      「{{ .Data.Term }}」に関する記事一覧です（全 {{ len .Pages }} 件）。
+    </p>
+  </header>
+
+  <section class="post-list">
+    <ul>
+      {{ range .Pages.ByDate.Reverse }}
+        <li class="post-item">
+          <h2 class="post-title">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </h2>
+          {{ with .Date }}
+            <p class="post-meta">公開日：{{ .Format "2006-01-02" }}</p>
+          {{ end }}
+          <p class="post-summary">
+            {{ with .Params.description }}
+              {{ . }}
+            {{ else }}
+              {{ .Summary | plainify | truncate 120 }}
+            {{ end }}
+          </p>
+          <p class="post-more">
+            <a href="{{ .RelPermalink }}">続きを読む »</a>
+          </p>
+        </li>
+      {{ end }}
+    </ul>
+  </section>
+</main>
+{{ end }}
