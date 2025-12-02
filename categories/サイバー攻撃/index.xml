@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>サイバー攻撃 on 富永道也｜ITジャーナリスト</title><link>https://tominagamichiya.com/categories/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83/</link><description>Recent content in サイバー攻撃 on 富永道也｜ITジャーナリスト</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Thu, 13 Nov 2025 18:00:00 +0900</lastBuildDate><atom:link href="https://tominagamichiya.com/categories/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83/index.xml" rel="self" type="application/rss+xml"/><item><title>「社労夢」クラウドシステム騒動：平易解説</title><link>https://tominagamichiya.com/articles/shalom-2025/</link><pubDate>Thu, 13 Nov 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/shalom-2025/</guid><description>&lt;h2 id="状況"&gt;状況&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>サイバー攻撃 on 富永道也｜ITジャーナリスト</title><link>https://tominagamichiya.com/categories/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83/</link><description>Recent content in サイバー攻撃 on 富永道也｜ITジャーナリスト</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Tue, 02 Dec 2025 18:00:00 +0900</lastBuildDate><atom:link href="https://tominagamichiya.com/categories/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83/index.xml" rel="self" type="application/rss+xml"/><item><title>国立国会図書館システムにサイバー攻撃</title><link>https://tominagamichiya.com/articles/ndl-2025/</link><pubDate>Tue, 02 Dec 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/ndl-2025/</guid><description>&lt;h2 id="1-状況"&gt;1. 状況&lt;/h2&gt;
+&lt;p&gt;国立国会図書館が作っていた新しいシステムが、&lt;strong&gt;外部からのサイバー攻撃&lt;/strong&gt;を受けました。&lt;br&gt;
+今回分かった重要な点は、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;図書館そのもの&lt;/strong&gt;ではなく&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;システム開発を委託していた会社&lt;/strong&gt;&lt;br&gt;
+→ さらにその下請けである &lt;strong&gt;再委託先（孫請け）&lt;/strong&gt;&lt;br&gt;
+この再委託先の環境から不正アクセスが行われた疑いがある、ということです。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;現時点では、&lt;/p&gt;</description></item><item><title>「社労夢」クラウドシステム騒動：平易解説</title><link>https://tominagamichiya.com/articles/shalom-2025/</link><pubDate>Thu, 13 Nov 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/shalom-2025/</guid><description>&lt;h2 id="状況"&gt;状況&lt;/h2&gt;
 &lt;p&gt;– 「社労夢」は、社労士などが使うクラウド型業務支援システムです。&lt;br&gt;
 – 提供元のエムケイシステム社が2023年6月にランサムウェアによる不正アクセスを受け、システムが停止しました。&lt;br&gt;
 – 管理されていた個人情報は最大で約2,242万人分という報告があります。&lt;br&gt;
