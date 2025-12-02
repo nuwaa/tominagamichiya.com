@@ -2,8 +2,8 @@
 title: "「KawaiiGPT」とは何？――“かわいいAI”の名前を持つ危険な攻撃用AIをやさしく解説"
 draft: false           # ← これが true だと表示されない（-Dで表示）
 date: 2025-12-01T18:00:00+09:00
-categories: ["サイバー攻撃", "ツール"]
-tags: ["KawaiiGPT"]
+categories: ["偽情報・AIとメディアリテラシー"]
+tags: ["生成AI", "攻撃用AI"]
 ---
 
 ## 状況
