@@ -1,0 +1,15 @@
+{{- $id := site.Params.ga_measurement_id -}}
+{{- if and $id (not hugo.IsServer) -}}
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ $id }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    // ＊必要に応じて同意モードなどもここで設定可
+    // gtag('consent', 'default', { 'analytics_storage': 'granted' });
+
+    gtag('config', '{{ $id }}', { 'anonymize_ip': true });
+  </script>
+{{- end -}}

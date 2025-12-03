@@ -20,6 +20,7 @@ theme = "simple-news"
   x_personal_account = "4989er"
   site_description = "サイバー事故と偽情報対策を“生活の言葉”で30秒解説。地上波向けの分かりやすさに全振り。"
   customCSS = ["css/site.css"]
+  ga_measurement_id = "G-7HDXZ9FNLC"
 
 [menu]
   [[menu.main]]
