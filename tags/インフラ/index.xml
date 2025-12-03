@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>インフラ on 富永道也｜ITジャーナリスト</title><link>https://tominagamichiya.com/tags/%E3%82%A4%E3%83%B3%E3%83%95%E3%83%A9/</link><description>Recent content in インフラ on 富永道也｜ITジャーナリスト</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Wed, 26 Nov 2025 18:00:00 +0900</lastBuildDate><atom:link href="https://tominagamichiya.com/tags/%E3%82%A4%E3%83%B3%E3%83%95%E3%83%A9/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年11月のクラウド電子カルテ障害をやさしく解説</title><link>https://tominagamichiya.com/articles/cloud-ehr-2025/</link><pubDate>Wed, 26 Nov 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/cloud-ehr-2025/</guid><description>&lt;h2 id="1-状況"&gt;1. 状況&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;発生日&lt;/strong&gt;：2025年11月15日（土）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;時間帯&lt;/strong&gt;：お昼すぎの12:15ごろから15:55ごろまで、約3時間40分停止&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;場所&lt;/strong&gt;：株式会社EMシステムズのクラウド版電子カルテ（MAPsなど）を使っている全国の医療機関&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;何が起きたか&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;電子カルテに&lt;strong&gt;ログインできない&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;途中で&lt;strong&gt;動かなくなる&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;受付・診察・検査・会計・オンライン診療などが広く止まる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;その結果、&lt;/p&gt;</description></item><item><title>株式会社イーネット　〜コンビニATMを運営する会社が話題に〜</title><link>https://tominagamichiya.com/articles/enet-2025/</link><pubDate>Wed, 12 Nov 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/enet-2025/</guid><description>&lt;h2 id="1-状況"&gt;1. 状況&lt;/h2&gt;
+&lt;p&gt;「コンビニで銀行のカードが使えるATM、あれ何だっけ？」と思ったら、実はそれを運営している会社が「株式会社イーネット」です。
+この会社は、日本全国のコンビニやスーパーなどにATMを設置・運営しており、銀行・ネット銀行・信用金庫など多くの金融機関のカードを扱っています。
+最近、この会社が “話題になっている” ということで、なぜか／何が起きているのかを整理します。&lt;/p&gt;</description></item><item><title>NEXCO中日本で発生したシステム障害（2025年4月）</title><link>https://tominagamichiya.com/articles/cnecl-2025/</link><pubDate>Sun, 09 Nov 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/cnecl-2025/</guid><description>&lt;h2 id="状況"&gt;状況&lt;/h2&gt;
+&lt;p&gt;2025年4月、NEXCO中日本（中日本高速道路株式会社）で大規模なシステム障害が発生しました。&lt;br&gt;
+この影響で、一部の高速道路におけるETC（自動料金収受システム）の利用ができなくなり、料金所では手動での徴収や通行券の発行が行われました。&lt;br&gt;
+ゴールデンウィーク直前という時期も重なり、交通渋滞や支払いトラブルが各地で発生しました。&lt;/p&gt;</description></item></channel></rss>

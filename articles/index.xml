@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Articles on 富永道也｜ITジャーナリスト</title><link>https://tominagamichiya.com/articles/</link><description>Recent content in Articles on 富永道也｜ITジャーナリスト</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Tue, 02 Dec 2025 18:00:00 +0900</lastBuildDate><atom:link href="https://tominagamichiya.com/articles/index.xml" rel="self" type="application/rss+xml"/><item><title>国立国会図書館システムにサイバー攻撃</title><link>https://tominagamichiya.com/articles/ndl-2025/</link><pubDate>Tue, 02 Dec 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/ndl-2025/</guid><description>&lt;h2 id="1-状況"&gt;1. 状況&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Articles on 富永道也｜ITジャーナリスト</title><link>https://tominagamichiya.com/articles/</link><description>Recent content in Articles on 富永道也｜ITジャーナリスト</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Wed, 03 Dec 2025 18:00:00 +0900</lastBuildDate><atom:link href="https://tominagamichiya.com/articles/index.xml" rel="self" type="application/rss+xml"/><item><title>Suicaのチャージ上限っていくら？やさしく解説</title><link>https://tominagamichiya.com/articles/suica-charge-limit/</link><pubDate>Wed, 03 Dec 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/suica-charge-limit/</guid><description>&lt;h1 id="suicaのチャージ上限っていくら"&gt;Suicaのチャージ上限っていくら？&lt;/h1&gt;
+&lt;p&gt;Suica（スイカ）は、電車やバス、コンビニなどで広く使われている「交通系ICカード」です。&lt;br&gt;
+とても便利ですが、「いくらまでチャージできるの？」という上限ルールがあります。&lt;/p&gt;</description></item><item><title>国立国会図書館システムにサイバー攻撃</title><link>https://tominagamichiya.com/articles/ndl-2025/</link><pubDate>Tue, 02 Dec 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/ndl-2025/</guid><description>&lt;h2 id="1-状況"&gt;1. 状況&lt;/h2&gt;
 &lt;p&gt;国立国会図書館が作っていた新しいシステムが、&lt;strong&gt;外部からのサイバー攻撃&lt;/strong&gt;を受けました。&lt;br&gt;
 今回分かった重要な点は、&lt;/p&gt;
 &lt;ul&gt;
@@ -7,7 +9,9 @@
 → さらにその下請けである &lt;strong&gt;再委託先（孫請け）&lt;/strong&gt;&lt;br&gt;
 この再委託先の環境から不正アクセスが行われた疑いがある、ということです。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;現時点では、&lt;/p&gt;</description></item><item><title>中高生による楽天モバイル不正契約事件を「子ども側の問題」としてやさしく解説</title><link>https://tominagamichiya.com/articles/rakuten-mobile-2025/</link><pubDate>Sat, 29 Nov 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/rakuten-mobile-2025/</guid><description>&lt;h2 id="状況"&gt;■状況&lt;/h2&gt;
+&lt;p&gt;現時点では、&lt;/p&gt;</description></item><item><title>「KawaiiGPT」とは何？――“かわいいAI”の名前を持つ危険な攻撃用AIをやさしく解説</title><link>https://tominagamichiya.com/articles/kawaii_gpt_report/</link><pubDate>Mon, 01 Dec 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/kawaii_gpt_report/</guid><description>&lt;h2 id="状況"&gt;状況&lt;/h2&gt;
+&lt;p&gt;最近「KawaiiGPT（カワイイ・ジーピーティー）」という名前のAIが、サイバーセキュリティの世界で話題になっています。&lt;br&gt;
+名前だけ聞くとゲームかキャラクターのようですが、実際は**サイバー攻撃に使われる“犯罪向けAI”**です。&lt;/p&gt;</description></item><item><title>中高生による楽天モバイル不正契約事件を「子ども側の問題」としてやさしく解説</title><link>https://tominagamichiya.com/articles/rakuten-mobile-2025/</link><pubDate>Sat, 29 Nov 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/rakuten-mobile-2025/</guid><description>&lt;h2 id="状況"&gt;■状況&lt;/h2&gt;
 &lt;p&gt;2025年2月、他人の楽天モバイルアカウントに勝手に入り、通信回線を不正に契約したとして中高生3人が逮捕されました。
 その回線は転売され、暗号資産（仮想通貨）に交換されていたと言われています。&lt;/p&gt;</description></item><item><title>楽天モバイル不正アクセス問題をやさしく解説</title><link>https://tominagamichiya.com/articles/rakuten-mobile-incident-2025/</link><pubDate>Fri, 28 Nov 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/rakuten-mobile-incident-2025/</guid><description>&lt;h2 id="状況"&gt;■状況&lt;/h2&gt;
 &lt;p&gt;2025年2月、他人の楽天モバイルのアカウントに勝手にログインし、不正に通信回線を契約したとして中高生が逮捕されました。
@@ -34,7 +38,30 @@
 &lt;li&gt;ただし、既存のコード決済サービスとの競争になる。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="対策--会社と私たちで"&gt;対策 — 会社と私たちで&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;会社側&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>「社労夢」クラウドシステム騒動：平易解説</title><link>https://tominagamichiya.com/articles/shalom-2025/</link><pubDate>Thu, 13 Nov 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/shalom-2025/</guid><description>&lt;h2 id="状況"&gt;状況&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;会社側&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>2025年11月のクラウド電子カルテ障害をやさしく解説</title><link>https://tominagamichiya.com/articles/cloud-ehr-2025/</link><pubDate>Wed, 26 Nov 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/cloud-ehr-2025/</guid><description>&lt;h2 id="1-状況"&gt;1. 状況&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;発生日&lt;/strong&gt;：2025年11月15日（土）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;時間帯&lt;/strong&gt;：お昼すぎの12:15ごろから15:55ごろまで、約3時間40分停止&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;場所&lt;/strong&gt;：株式会社EMシステムズのクラウド版電子カルテ（MAPsなど）を使っている全国の医療機関&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;何が起きたか&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;電子カルテに&lt;strong&gt;ログインできない&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;途中で&lt;strong&gt;動かなくなる&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;受付・診察・検査・会計・オンライン診療などが広く止まる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;その結果、&lt;/p&gt;</description></item><item><title>中高生とオンラインカジノ問題をやさしく解説</title><link>https://tominagamichiya.com/articles/online-casino-teens/online_casino_teens/</link><pubDate>Tue, 25 Nov 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/online-casino-teens/online_casino_teens/</guid><description>&lt;h2 id="状況"&gt;状況&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;日本では、&lt;strong&gt;オンラインカジノの利用そのものが違法&lt;/strong&gt;です（海外の会社が運営していても、日本からお金を賭ければ賭博罪）。&lt;/li&gt;
+&lt;li&gt;それにもかかわらず、スマホやパソコンから簡単にアクセスできるため、&lt;strong&gt;中高生がプレイしてしまう例&lt;/strong&gt;が出ています。&lt;/li&gt;
+&lt;li&gt;たとえば神奈川県の中学1年生の男子が、オンラインカジノを繰り返し利用していたとして児童相談所に通告されました。小6の頃から始め、&lt;strong&gt;合計約700万円分を賭けた形跡&lt;/strong&gt;があったと報じられています。お金は小遣いだけでなく、親の財布から抜き取っていたとされています。&lt;/li&gt;
+&lt;li&gt;高校生が親の口座にアクセスし、&lt;strong&gt;数百万円単位の金額をオンラインカジノに使ってしまったケース&lt;/strong&gt;も報じられています。&lt;/li&gt;
+&lt;li&gt;警察庁のまとめでは、オンラインカジノなどオンライン賭博で摘発された人は、ここ数年で&lt;strong&gt;過去最多を更新&lt;/strong&gt;しており、若者・一般人にも広がっていることがわかります。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="原因"&gt;原因&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;1. スマホ1台で「カジノ」ができてしまう&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>「社労夢」クラウドシステム騒動：平易解説</title><link>https://tominagamichiya.com/articles/shalom-2025/</link><pubDate>Thu, 13 Nov 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/shalom-2025/</guid><description>&lt;h2 id="状況"&gt;状況&lt;/h2&gt;
 &lt;p&gt;– 「社労夢」は、社労士などが使うクラウド型業務支援システムです。&lt;br&gt;
 – 提供元のエムケイシステム社が2023年6月にランサムウェアによる不正アクセスを受け、システムが停止しました。&lt;br&gt;
 – 管理されていた個人情報は最大で約2,242万人分という報告があります。&lt;br&gt;
