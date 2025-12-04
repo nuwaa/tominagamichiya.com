@@ -49,18 +49,18 @@ theme = "simple-news"
     weight = 10
 
   [[menu.main]]
-    name = "お金・決済とセキュリティ"
-    url  = "/categories/お金・決済とセキュリティ/"
+    name = "お金-決済とセキュリティ"
+    url  = "/categories/お金-決済とセキュリティ/"
     weight = 20
 
   [[menu.main]]
-    name = "偽情報・AIとメディアリテラシー"
-    url  = "/categories/偽情報・AIとメディアリテラシー/"
+    name = "偽情報-AIとメディアリテラシー"
+    url  = "/categories/偽情報-AIとメディアリテラシー/"
     weight = 30
 
   [[menu.main]]
-    name = "子ども・学校とデジタル"
-    url  = "/categories/子ども・学校とデジタル/"
+    name = "子ども-学校とデジタル"
+    url  = "/categories/子ども-学校とデジタル/"
     weight = 40
 
   [[menu.main]]
