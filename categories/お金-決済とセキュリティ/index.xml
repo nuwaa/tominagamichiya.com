@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>お金-決済とセキュリティ on 富永道也｜ITジャーナリスト</title><link>https://tominagamichiya.com/categories/%E3%81%8A%E9%87%91-%E6%B1%BA%E6%B8%88%E3%81%A8%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/</link><description>Recent content in お金-決済とセキュリティ on 富永道也｜ITジャーナリスト</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Wed, 03 Dec 2025 18:00:00 +0900</lastBuildDate><atom:link href="https://tominagamichiya.com/categories/%E3%81%8A%E9%87%91-%E6%B1%BA%E6%B8%88%E3%81%A8%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/index.xml" rel="self" type="application/rss+xml"/><item><title>Suicaのチャージ上限っていくら？やさしく解説</title><link>https://tominagamichiya.com/articles/suica-charge-limit/</link><pubDate>Wed, 03 Dec 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/suica-charge-limit/</guid><description>&lt;h1 id="suicaのチャージ上限っていくら"&gt;Suicaのチャージ上限っていくら？&lt;/h1&gt;
+&lt;p&gt;Suica（スイカ）は、電車やバス、コンビニなどで広く使われている「交通系ICカード」です。&lt;br&gt;
+とても便利ですが、「いくらまでチャージできるの？」という上限ルールがあります。&lt;/p&gt;</description></item><item><title>teppay（テッペイ）とは — やさしい解説</title><link>https://tominagamichiya.com/articles/teppay-2025/</link><pubDate>Thu, 27 Nov 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/teppay-2025/</guid><description>&lt;h2 id="状況"&gt;状況&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2025年11月25日、JR東日本とPASMOが、モバイルSuica／モバイルPASMOに「teppay」というコード決済機能を追加すると発表。&lt;/li&gt;
+&lt;li&gt;既存のアプリをアップデートするだけで使えるようになる。&lt;/li&gt;
+&lt;li&gt;サービス開始は、モバイルSuica が 2026年秋、モバイルPASMO は 2027年春の予定。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="原因--なぜ導入"&gt;原因 — なぜ導入？&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;キャッシュレス決済の種類が増え、「アプリが多すぎる」「わかりにくい」と感じる人が増えてきた。&lt;/li&gt;
+&lt;li&gt;多くの人に使われている Suica／PASMO に決済機能をまとめることで、支払いをシンプルにしたいというニーズ。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="問題定義--これまでの限界"&gt;問題定義 — これまでの限界&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Suica／PASMO は交通や小さな買い物には便利だが、高額買い物・送金・ネット通販には対応していなかった。&lt;/li&gt;
+&lt;li&gt;決済サービスが多すぎて、管理が面倒・複雑。特にスマホに慣れていない人にはハードルが高かった。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="予測--今後どうなる"&gt;予測 — 今後どうなる？&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Suica/PASMO ひとつで、電車、買い物、送金、通販までできる「オールマイティ財布」が誕生する可能性。&lt;/li&gt;
+&lt;li&gt;特に複数の決済手段に疲れていた人や高齢者に受け入れられやすい。&lt;/li&gt;
+&lt;li&gt;ただし、既存のコード決済サービスとの競争になる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="対策--会社と私たちで"&gt;対策 — 会社と私たちで&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;会社側&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>日経・朝日がAI検索「Perplexity」を提訴 AIとニュースの新しい争いをやさしく解説</title><link>https://tominagamichiya.com/articles/perplexity-nikkei-asahi-202508-lawsuit/</link><pubDate>Mon, 17 Nov 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/perplexity-nikkei-asahi-202508-lawsuit/</guid><description>&lt;h2 id="1-状況今なにが起きている"&gt;1. 状況（今なにが起きている？）&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2025年8月26日、朝日新聞社と日本経済新聞社（日経）は、米AI企業 Perplexity AI が提供する検索サービス「Perplexity（パープレキシティ）」を相手取り、東京地方裁判所に共同で訴えを起こしました。&lt;/li&gt;
+&lt;li&gt;訴えの内容は、「著作権侵害行為の差し止め」と「それぞれ22億円（合計44億円）の損害賠償」を求めるものです。&lt;/li&gt;
+&lt;li&gt;その少し前の8月7日には、読売新聞グループ3社も同じくPerplexityを訴えており、日本の大手新聞3社すべてがAI企業に法的措置を取るという、非常に大きな出来事になっています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Perplexity は、質問を入力するとネット上の記事などを自動で集め、AIがまとめて答えを返してくれる「AI検索エンジン」です。普通の検索よりも「答え」が先に出てくるサービスだとイメージするとわかりやすいでしょう。&lt;/p&gt;</description></item><item><title>株式会社イーネット　〜コンビニATMを運営する会社が話題に〜</title><link>https://tominagamichiya.com/articles/enet-2025/</link><pubDate>Wed, 12 Nov 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/enet-2025/</guid><description>&lt;h2 id="1-状況"&gt;1. 状況&lt;/h2&gt;
+&lt;p&gt;「コンビニで銀行のカードが使えるATM、あれ何だっけ？」と思ったら、実はそれを運営している会社が「株式会社イーネット」です。
+この会社は、日本全国のコンビニやスーパーなどにATMを設置・運営しており、銀行・ネット銀行・信用金庫など多くの金融機関のカードを扱っています。
+最近、この会社が “話題になっている” ということで、なぜか／何が起きているのかを整理します。&lt;/p&gt;</description></item><item><title>Suica「チャージ上限30万円へ」報道　──なぜ今？どう変わる？わかりやすく解説</title><link>https://tominagamichiya.com/articles/suica-2025/</link><pubDate>Tue, 11 Nov 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/suica-2025/</guid><description>&lt;h2 id="状況"&gt;◆状況&lt;/h2&gt;
+&lt;p&gt;これまで &lt;strong&gt;Suica（スイカ）&lt;/strong&gt; のチャージ上限は &lt;strong&gt;2万円&lt;/strong&gt; でした。&lt;br&gt;
+ところが今後、この上限が &lt;strong&gt;30万円程度まで引き上げられる&lt;/strong&gt; という報道が出ています。&lt;br&gt;
+モバイルSuicaやカード型Suicaの両方が対象とみられ、もし実現すれば、&lt;strong&gt;交通系ICカードの中では異例の高額上限&lt;/strong&gt; になります。&lt;/p&gt;</description></item></channel></rss>

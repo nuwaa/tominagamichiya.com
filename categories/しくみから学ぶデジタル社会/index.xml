@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>しくみから学ぶデジタル社会 on 富永道也｜ITジャーナリスト</title><link>https://tominagamichiya.com/categories/%E3%81%97%E3%81%8F%E3%81%BF%E3%81%8B%E3%82%89%E5%AD%A6%E3%81%B6%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E7%A4%BE%E4%BC%9A/</link><description>Recent content in しくみから学ぶデジタル社会 on 富永道也｜ITジャーナリスト</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Wed, 03 Dec 2025 18:00:00 +0900</lastBuildDate><atom:link href="https://tominagamichiya.com/categories/%E3%81%97%E3%81%8F%E3%81%BF%E3%81%8B%E3%82%89%E5%AD%A6%E3%81%B6%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E7%A4%BE%E4%BC%9A/index.xml" rel="self" type="application/rss+xml"/><item><title>Suicaのチャージ上限っていくら？やさしく解説</title><link>https://tominagamichiya.com/articles/suica-charge-limit/</link><pubDate>Wed, 03 Dec 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/suica-charge-limit/</guid><description>&lt;h1 id="suicaのチャージ上限っていくら"&gt;Suicaのチャージ上限っていくら？&lt;/h1&gt;
+&lt;p&gt;Suica（スイカ）は、電車やバス、コンビニなどで広く使われている「交通系ICカード」です。&lt;br&gt;
+とても便利ですが、「いくらまでチャージできるの？」という上限ルールがあります。&lt;/p&gt;</description></item><item><title>「KawaiiGPT」とは何？――“かわいいAI”の名前を持つ危険な攻撃用AIをやさしく解説</title><link>https://tominagamichiya.com/articles/kawaii_gpt_report/</link><pubDate>Mon, 01 Dec 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/kawaii_gpt_report/</guid><description>&lt;h2 id="状況"&gt;状況&lt;/h2&gt;
+&lt;p&gt;最近「KawaiiGPT（カワイイ・ジーピーティー）」という名前のAIが、サイバーセキュリティの世界で話題になっています。&lt;br&gt;
+名前だけ聞くとゲームかキャラクターのようですが、実際は**サイバー攻撃に使われる“犯罪向けAI”**です。&lt;/p&gt;</description></item><item><title>CTF（シーティーエフ）ってなに？──サイバー世界の『宝探しゲーム』</title><link>https://tominagamichiya.com/articles/ctf_intro/</link><pubDate>Sun, 30 Nov 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/ctf_intro/</guid><description>&lt;h2 id="1-まずはざっくり"&gt;1. まずはざっくり&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CTF（シーティーエフ）&lt;/strong&gt; は &lt;em&gt;Capture The Flag&lt;/em&gt;（キャプチャ・ザ・フラッグ）の略です。&lt;/li&gt;
+&lt;li&gt;直訳すると「旗をうばえ」ですが、ここでは&lt;br&gt;
+&lt;strong&gt;コンピューターの知識を使って、隠された答え（フラグ）を見つけるゲーム&lt;/strong&gt; のことを指します。&lt;/li&gt;
+&lt;li&gt;ただのゲームではなく、**サイバー攻撃・防御の練習（教育・訓練）**として世界中で使われています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;テレビでいうと、&lt;br&gt;
+「謎解きクイズ番組」＋「サイバーセキュリティ教室」を足したようなイメージです。&lt;/p&gt;</description></item><item><title>日経・朝日がAI検索「Perplexity」を提訴 AIとニュースの新しい争いをやさしく解説</title><link>https://tominagamichiya.com/articles/perplexity-nikkei-asahi-202508-lawsuit/</link><pubDate>Mon, 17 Nov 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/perplexity-nikkei-asahi-202508-lawsuit/</guid><description>&lt;h2 id="1-状況今なにが起きている"&gt;1. 状況（今なにが起きている？）&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2025年8月26日、朝日新聞社と日本経済新聞社（日経）は、米AI企業 Perplexity AI が提供する検索サービス「Perplexity（パープレキシティ）」を相手取り、東京地方裁判所に共同で訴えを起こしました。&lt;/li&gt;
+&lt;li&gt;訴えの内容は、「著作権侵害行為の差し止め」と「それぞれ22億円（合計44億円）の損害賠償」を求めるものです。&lt;/li&gt;
+&lt;li&gt;その少し前の8月7日には、読売新聞グループ3社も同じくPerplexityを訴えており、日本の大手新聞3社すべてがAI企業に法的措置を取るという、非常に大きな出来事になっています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Perplexity は、質問を入力するとネット上の記事などを自動で集め、AIがまとめて答えを返してくれる「AI検索エンジン」です。普通の検索よりも「答え」が先に出てくるサービスだとイメージするとわかりやすいでしょう。&lt;/p&gt;</description></item><item><title>防御用AIとは？</title><link>https://tominagamichiya.com/articles/defensive_ai/</link><pubDate>Sat, 15 Nov 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/defensive_ai/</guid><description>&lt;h2 id="1-そもそも防御用aiってなに"&gt;1. そもそも「防御用AI」ってなに？&lt;/h2&gt;
+&lt;p&gt;最近「AIがサイバー攻撃をしてくる」「AIで守る」といったニュースを耳にすることが増えました。&lt;/p&gt;
+&lt;p&gt;**防御用AI（ぼうぎょようAI）**とは、かんたんに言うと&lt;/p&gt;</description></item><item><title>「攻撃用AI」とは？</title><link>https://tominagamichiya.com/articles/offensive_ai/</link><pubDate>Fri, 14 Nov 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/offensive_ai/</guid><description>&lt;h2 id="1-そもそもai生成aiって何"&gt;1. そもそも「AI」「生成AI」って何？&lt;/h2&gt;
+&lt;h3 id="ai人工知能"&gt;AI（人工知能）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;たくさんのデータを学習して、&lt;/li&gt;
+&lt;li&gt;パターンを見つけたり、予測したり、&lt;/li&gt;
+&lt;li&gt;人間の「考える」「判断する」を一部まねるコンピューターの仕組み&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;のことです。&lt;/p&gt;</description></item></channel></rss>
