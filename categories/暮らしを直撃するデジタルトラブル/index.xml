@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>暮らしを直撃するデジタルトラブル on 富永道也｜ITジャーナリスト</title><link>https://tominagamichiya.com/categories/%E6%9A%AE%E3%82%89%E3%81%97%E3%82%92%E7%9B%B4%E6%92%83%E3%81%99%E3%82%8B%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%88%E3%83%A9%E3%83%96%E3%83%AB/</link><description>Recent content in 暮らしを直撃するデジタルトラブル on 富永道也｜ITジャーナリスト</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Tue, 02 Dec 2025 18:00:00 +0900</lastBuildDate><atom:link href="https://tominagamichiya.com/categories/%E6%9A%AE%E3%82%89%E3%81%97%E3%82%92%E7%9B%B4%E6%92%83%E3%81%99%E3%82%8B%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%88%E3%83%A9%E3%83%96%E3%83%AB/index.xml" rel="self" type="application/rss+xml"/><item><title>国立国会図書館システムにサイバー攻撃</title><link>https://tominagamichiya.com/articles/ndl-2025/</link><pubDate>Tue, 02 Dec 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/ndl-2025/</guid><description>&lt;h2 id="1-状況"&gt;1. 状況&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>暮らしを直撃するデジタルトラブル on 富永道也｜ITジャーナリスト</title><link>https://tominagamichiya.com/categories/%E6%9A%AE%E3%82%89%E3%81%97%E3%82%92%E7%9B%B4%E6%92%83%E3%81%99%E3%82%8B%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%88%E3%83%A9%E3%83%96%E3%83%AB/</link><description>Recent content in 暮らしを直撃するデジタルトラブル on 富永道也｜ITジャーナリスト</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Fri, 05 Dec 2025 18:00:00 +0900</lastBuildDate><atom:link href="https://tominagamichiya.com/categories/%E6%9A%AE%E3%82%89%E3%81%97%E3%82%92%E7%9B%B4%E6%92%83%E3%81%99%E3%82%8B%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%88%E3%83%A9%E3%83%96%E3%83%AB/index.xml" rel="self" type="application/rss+xml"/><item><title>快活CLUB高校生サイバー攻撃事件 〜「高校生がすごい」より先に、会社側の問題を直視しよう〜</title><link>https://tominagamichiya.com/articles/kaikatsu_club_cyber_attack/</link><pubDate>Fri, 05 Dec 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/kaikatsu_club_cyber_attack/</guid><description>&lt;h2 id="1-状況何が起きたの"&gt;1. 状況（何が起きたの？）&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ネットカフェ「快活CLUB」などを運営する会社のサーバーが、外部から不正アクセスを受けました。&lt;/li&gt;
+&lt;li&gt;会員アプリのしくみをねらわれ、数百万人分の会員情報が外部に出たおそれがある、と会社が発表しました。&lt;/li&gt;
+&lt;li&gt;氏名・住所・電話番号・生年月日・会員番号・ポイント残高など、「個人が特定できる情報」が含まれていたとされています（クレジットカード番号などは含まれていないと説明）。&lt;/li&gt;
+&lt;li&gt;その後の捜査で、高校2年生（17歳）が、生成AIを使って作ったプログラムで攻撃した疑いで逮捕されました。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="2-原因なぜこんなことになったのか"&gt;2. 原因（なぜこんなことになったのか）&lt;/h2&gt;
+&lt;p&gt;高校生が悪用したことはもちろん大問題ですが、&lt;br&gt;
+ここでは &lt;strong&gt;「会社側の問題」&lt;/strong&gt; にしぼって見ていきます。&lt;/p&gt;</description></item><item><title>国立国会図書館システムにサイバー攻撃</title><link>https://tominagamichiya.com/articles/ndl-2025/</link><pubDate>Tue, 02 Dec 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/ndl-2025/</guid><description>&lt;h2 id="1-状況"&gt;1. 状況&lt;/h2&gt;
 &lt;p&gt;国立国会図書館が作っていた新しいシステムが、&lt;strong&gt;外部からのサイバー攻撃&lt;/strong&gt;を受けました。&lt;br&gt;
 今回分かった重要な点は、&lt;/p&gt;
 &lt;ul&gt;

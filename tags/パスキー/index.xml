@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>パスキー on 富永道也｜ITジャーナリスト</title><link>https://tominagamichiya.com/tags/%E3%83%91%E3%82%B9%E3%82%AD%E3%83%BC/</link><description>Recent content in パスキー on 富永道也｜ITジャーナリスト</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Wed, 19 Nov 2025 18:00:00 +0900</lastBuildDate><atom:link href="https://tominagamichiya.com/tags/%E3%83%91%E3%82%B9%E3%82%AD%E3%83%BC/index.xml" rel="self" type="application/rss+xml"/><item><title>「パスワード」と「パスキー」のちがい</title><link>https://tominagamichiya.com/articles/password_vs_passkey/</link><pubDate>Wed, 19 Nov 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/password_vs_passkey/</guid><description>&lt;h2 id="1-パスワードってなに"&gt;1. パスワードってなに？&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;私たちがふだん使っている「ログイン用のヒミツの文字列」です。&lt;br&gt;
+例）&lt;code&gt;taro2025&lt;/code&gt;、&lt;code&gt;ABcd1234!&lt;/code&gt; など&lt;/li&gt;
+&lt;li&gt;「自分で考えて」「自分で覚えて」「自分の手で入力する」ものです。&lt;/li&gt;
+&lt;li&gt;同じパスワードをいろいろなサービスで使い回してしまう人が多く、
+それが大きな問題になっています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="パスワードの弱点"&gt;パスワードの弱点&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;盗まれやすい&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;メールの「なりすまし」サイト（フィッシング）に入力してしまう&lt;/li&gt;
+&lt;li&gt;サービス会社から情報が流出してしまう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;覚えきれない&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;サービスの数が多すぎて、強いパスワードを全部覚えるのはほぼムリ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;つい手を抜きがち&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;「誕生日＋名前」など、推測されやすいパスワードにしがち&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="2-パスキーってなに"&gt;2. パスキーってなに？&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;パスワードの代わりに使うための&lt;strong&gt;新しいカギ&lt;/strong&gt;です。&lt;/li&gt;
+&lt;li&gt;覚える必要はなく、スマホやパソコンの中にしまわれています。&lt;/li&gt;
+&lt;li&gt;ログインするときは、スマホの
+&lt;ul&gt;
+&lt;li&gt;指紋認証&lt;/li&gt;
+&lt;li&gt;顔認証&lt;/li&gt;
+&lt;li&gt;画面ロックの暗証番号（PIN）
+などでロックを外して使います。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="ざっくりいうと"&gt;ざっくりいうと…&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;パスワード&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;「ヒミツの言葉」を自分で覚えて、毎回入力する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;パスキー&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;「ヒミツのカギ」はスマホやPCの中。&lt;/li&gt;
+&lt;li&gt;自分は指紋や顔などでロックを外すだけ。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;スマホが**「カギ束」**になっていて、&lt;br&gt;
+いろんなサービスのカギをまとめて管理しているイメージです。&lt;/p&gt;</description></item></channel></rss>
