@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>富永道也｜ITジャーナリスト</title><link>https://tominagamichiya.com/</link><description>Recent content on 富永道也｜ITジャーナリスト</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sat, 06 Dec 2025 18:00:00 +0900</lastBuildDate><atom:link href="https://tominagamichiya.com/index.xml" rel="self" type="application/rss+xml"/><item><title>快活CLUB高校生サイバー攻撃事件をどう見るか 〜子どもを「犯罪者」にしないために〜</title><link>https://tominagamichiya.com/articles/kaikatsu_club_cyberattack_education/</link><pubDate>Sat, 06 Dec 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/kaikatsu_club_cyberattack_education/</guid><description>&lt;h2 id="1-状況"&gt;1. 状況&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>富永道也｜ITジャーナリスト</title><link>https://tominagamichiya.com/</link><description>Recent content on 富永道也｜ITジャーナリスト</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Mon, 08 Dec 2025 18:00:01 +0900</lastBuildDate><atom:link href="https://tominagamichiya.com/index.xml" rel="self" type="application/rss+xml"/><item><title>高市総理と「偽情報」問題をやさしく解説</title><link>https://tominagamichiya.com/articles/takaichi_misinformation/</link><pubDate>Mon, 08 Dec 2025 18:00:01 +0900</pubDate><guid>https://tominagamichiya.com/articles/takaichi_misinformation/</guid><description>&lt;h2 id="はじめに"&gt;はじめに&lt;/h2&gt;
+&lt;p&gt;2025年10月に、高市早苗さんが日本で初めての女性総理大臣になりました。それと同じタイミングで、高市総理の名前を使った「偽情報（デマ）」や、AIで作られたニセ動画・ニセ広告が世界中のSNSで一気に増えています。&lt;/p&gt;</description></item><item><title>駿河屋ECサイト不正アクセス問題をやさしく解説</title><link>https://tominagamichiya.com/articles/surugaya_ec_breach_explained/</link><pubDate>Sun, 07 Dec 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/surugaya_ec_breach_explained/</guid><description>&lt;h2 id="状況いま何が起きているの"&gt;状況（いま何が起きているの？）&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;被害があったのは、駿河屋の公式ネットショップ「駿河屋.JP」です。&lt;/li&gt;
+&lt;li&gt;2025年7月23日12時50分〜8月8日の間に、このサイトでクレジットカード決済をした&lt;strong&gt;約3万人分&lt;/strong&gt;の情報が外部に漏れた可能性があると発表されました。&lt;/li&gt;
+&lt;li&gt;流出した可能性があるのは
+&lt;ul&gt;
+&lt;li&gt;クレジットカード情報（名義、番号、有効期限、セキュリティコード、カードブランド）&lt;/li&gt;
+&lt;li&gt;名前・住所・電話番号・メールアドレス・領収書の宛名・但し書き&lt;br&gt;
+などです。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;現在、駿河屋.JPでの&lt;strong&gt;クレジットカード決済は停止&lt;/strong&gt;されており、調査と再発防止策が進められています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="原因なぜこんなことになったの"&gt;原因（なぜこんなことになったの？）&lt;/h2&gt;
+&lt;p&gt;専門家の調査（フォレンジック調査）の結果、次のようなことが分かっています。&lt;/p&gt;</description></item><item><title>快活CLUB高校生サイバー攻撃事件をどう見るか 〜子どもを「犯罪者」にしないために〜</title><link>https://tominagamichiya.com/articles/kaikatsu_club_cyberattack_education/</link><pubDate>Sat, 06 Dec 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/kaikatsu_club_cyberattack_education/</guid><description>&lt;h2 id="1-状況"&gt;1. 状況&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;2025年1月、ネットカフェチェーン「快活CLUB」の会員システムがサイバー攻撃を受け、最大で約729万件分の会員・利用者の情報が外部に出た「可能性がある」と発表されました。&lt;/li&gt;
 &lt;li&gt;氏名、性別、住所、電話番号、生年月日、会員番号、ポイント残高などが対象とされています（クレジットカード番号や免許証の画像、パスワードなどは含まれていないと説明されています）。&lt;/li&gt;
@@ -125,7 +141,8 @@
 &lt;h2 id="問題定義何が問題なのか"&gt;問題定義（何が問題なのか）&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;高校生でも「犯罪インフラ」を作れてしまう時代になっていること&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>小中学校で学ぶ「メディアリテラシー」と「AI」</title><link>https://tominagamichiya.com/articles/media_ai/</link><pubDate>Sat, 22 Nov 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/media_ai/</guid><description>&lt;h2 id="-目的"&gt;🎯 目的&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;高校生でも「犯罪インフラ」を作れてしまう時代になっていること&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>日本のネットで広がる「外国人優遇」デマを考える</title><link>https://tominagamichiya.com/articles/gaikokujin_yugu_dema/</link><pubDate>Sun, 23 Nov 2025 18:00:01 +0900</pubDate><guid>https://tominagamichiya.com/articles/gaikokujin_yugu_dema/</guid><description>&lt;p&gt;テレビやネットで、「日本人より外国人が優遇されている」「外国人ばかり得をしている」といった言葉を目にすることがあります。&lt;br&gt;
+しかし、その多くは&lt;strong&gt;事実と違う情報（デマ）や、一部だけを切り取った誤解&lt;/strong&gt;です。&lt;/p&gt;</description></item><item><title>小中学校で学ぶ「メディアリテラシー」と「AI」</title><link>https://tominagamichiya.com/articles/media_ai/</link><pubDate>Sat, 22 Nov 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/media_ai/</guid><description>&lt;h2 id="-目的"&gt;🎯 目的&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;デマにだまされない力をつける&lt;/li&gt;
 &lt;li&gt;ネットを安全に使う力を身につける&lt;/li&gt;

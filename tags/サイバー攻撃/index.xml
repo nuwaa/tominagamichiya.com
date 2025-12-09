@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>サイバー攻撃 on 富永道也｜ITジャーナリスト</title><link>https://tominagamichiya.com/tags/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83/</link><description>Recent content in サイバー攻撃 on 富永道也｜ITジャーナリスト</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Fri, 05 Dec 2025 18:00:00 +0900</lastBuildDate><atom:link href="https://tominagamichiya.com/tags/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83/index.xml" rel="self" type="application/rss+xml"/><item><title>快活CLUB高校生サイバー攻撃事件 〜「高校生がすごい」より先に、会社側の問題を直視しよう〜</title><link>https://tominagamichiya.com/articles/kaikatsu_club_cyber_attack/</link><pubDate>Fri, 05 Dec 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/kaikatsu_club_cyber_attack/</guid><description>&lt;h2 id="1-状況何が起きたの"&gt;1. 状況（何が起きたの？）&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>サイバー攻撃 on 富永道也｜ITジャーナリスト</title><link>https://tominagamichiya.com/tags/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83/</link><description>Recent content in サイバー攻撃 on 富永道也｜ITジャーナリスト</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 07 Dec 2025 18:00:00 +0900</lastBuildDate><atom:link href="https://tominagamichiya.com/tags/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83/index.xml" rel="self" type="application/rss+xml"/><item><title>駿河屋ECサイト不正アクセス問題をやさしく解説</title><link>https://tominagamichiya.com/articles/surugaya_ec_breach_explained/</link><pubDate>Sun, 07 Dec 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/surugaya_ec_breach_explained/</guid><description>&lt;h2 id="状況いま何が起きているの"&gt;状況（いま何が起きているの？）&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;被害があったのは、駿河屋の公式ネットショップ「駿河屋.JP」です。&lt;/li&gt;
+&lt;li&gt;2025年7月23日12時50分〜8月8日の間に、このサイトでクレジットカード決済をした&lt;strong&gt;約3万人分&lt;/strong&gt;の情報が外部に漏れた可能性があると発表されました。&lt;/li&gt;
+&lt;li&gt;流出した可能性があるのは
+&lt;ul&gt;
+&lt;li&gt;クレジットカード情報（名義、番号、有効期限、セキュリティコード、カードブランド）&lt;/li&gt;
+&lt;li&gt;名前・住所・電話番号・メールアドレス・領収書の宛名・但し書き&lt;br&gt;
+などです。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;現在、駿河屋.JPでの&lt;strong&gt;クレジットカード決済は停止&lt;/strong&gt;されており、調査と再発防止策が進められています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="原因なぜこんなことになったの"&gt;原因（なぜこんなことになったの？）&lt;/h2&gt;
+&lt;p&gt;専門家の調査（フォレンジック調査）の結果、次のようなことが分かっています。&lt;/p&gt;</description></item><item><title>快活CLUB高校生サイバー攻撃事件 〜「高校生がすごい」より先に、会社側の問題を直視しよう〜</title><link>https://tominagamichiya.com/articles/kaikatsu_club_cyber_attack/</link><pubDate>Fri, 05 Dec 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/kaikatsu_club_cyber_attack/</guid><description>&lt;h2 id="1-状況何が起きたの"&gt;1. 状況（何が起きたの？）&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ネットカフェ「快活CLUB」などを運営する会社のサーバーが、外部から不正アクセスを受けました。&lt;/li&gt;
 &lt;li&gt;会員アプリのしくみをねらわれ、数百万人分の会員情報が外部に出たおそれがある、と会社が発表しました。&lt;/li&gt;
