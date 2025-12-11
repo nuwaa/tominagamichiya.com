@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>富永道也｜ITジャーナリスト</title><link>https://tominagamichiya.com/</link><description>Recent content on 富永道也｜ITジャーナリスト</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Mon, 08 Dec 2025 18:00:01 +0900</lastBuildDate><atom:link href="https://tominagamichiya.com/index.xml" rel="self" type="application/rss+xml"/><item><title>高市総理と「偽情報」問題をやさしく解説</title><link>https://tominagamichiya.com/articles/takaichi_misinformation/</link><pubDate>Mon, 08 Dec 2025 18:00:01 +0900</pubDate><guid>https://tominagamichiya.com/articles/takaichi_misinformation/</guid><description>&lt;h2 id="はじめに"&gt;はじめに&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>富永道也｜ITジャーナリスト</title><link>https://tominagamichiya.com/</link><description>Recent content on 富永道也｜ITジャーナリスト</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Wed, 10 Dec 2025 18:00:00 +0900</lastBuildDate><atom:link href="https://tominagamichiya.com/index.xml" rel="self" type="application/rss+xml"/><item><title>「スマホソフトウェア競争促進法」をやさしく解説</title><link>https://tominagamichiya.com/articles/smaho-software-competition-law/</link><pubDate>Wed, 10 Dec 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/smaho-software-competition-law/</guid><description>&lt;p&gt;※2025年12月時点の情報です。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="1-この法律は何のためのもの"&gt;1. この法律は何のためのもの？&lt;/h2&gt;
+&lt;p&gt;正式名称は&lt;br&gt;
+&lt;strong&gt;「スマートフォンにおいて利用される特定ソフトウェアに係る競争の促進に関する法律」&lt;/strong&gt;&lt;br&gt;
+といいます。ニュースなどでは短く&lt;/p&gt;</description></item><item><title>ジモティー開発環境への不正アクセスをやさしく解説</title><link>https://tominagamichiya.com/articles/jimoty_dev_breach_explained/</link><pubDate>Tue, 09 Dec 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/jimoty_dev_breach_explained/</guid><description>&lt;h2 id="1-状況いま何が起きている"&gt;1. 状況（いま何が起きている？）&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2025年11月26日ごろ、ジモティー社内の&lt;strong&gt;開発用システム&lt;/strong&gt;の一部で、マルウェア（悪意あるソフト）の動きが見つかった。&lt;/li&gt;
+&lt;li&gt;すぐにその部分へのアクセスを止め、調査したところ、&lt;strong&gt;第三者からの不正アクセス&lt;/strong&gt;が確認された。&lt;/li&gt;
+&lt;li&gt;その結果、開発環境に保存されていた情報の一部が、&lt;strong&gt;外部から見られる状態になっていた&lt;/strong&gt;ことがわかった。&lt;/li&gt;
+&lt;li&gt;現時点で公表されている主な対象は次の通り：
+&lt;ul&gt;
+&lt;li&gt;ジモティーの&lt;strong&gt;従業員・元従業員・社外協力者&lt;/strong&gt;の「氏名・メールアドレスなど」&lt;/li&gt;
+&lt;li&gt;ジモティーのユーザーについて、&lt;strong&gt;特定のカテゴリーに問い合わせをしたことがあるかどうか&lt;/strong&gt;を示す情報（一部）&lt;/li&gt;
+&lt;li&gt;ユーザー2名については、メールアドレスや通知設定などが外部からアクセスされた可能性があると発表されている&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;一方で、&lt;strong&gt;サービス本番環境（みなさんが実際に使っているジモティーのシステム）とは分けて運用されており、パスワードやクレジットカード情報などの流出は確認されていない&lt;/strong&gt;としています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;まだ「第一報」であり、会社側は&lt;strong&gt;詳しい原因や影響範囲を調査中&lt;/strong&gt;です。&lt;/p&gt;</description></item><item><title>高市総理と「偽情報」問題をやさしく解説</title><link>https://tominagamichiya.com/articles/takaichi_misinformation/</link><pubDate>Mon, 08 Dec 2025 18:00:01 +0900</pubDate><guid>https://tominagamichiya.com/articles/takaichi_misinformation/</guid><description>&lt;h2 id="はじめに"&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;2025年10月に、高市早苗さんが日本で初めての女性総理大臣になりました。それと同じタイミングで、高市総理の名前を使った「偽情報（デマ）」や、AIで作られたニセ動画・ニセ広告が世界中のSNSで一気に増えています。&lt;/p&gt;</description></item><item><title>駿河屋ECサイト不正アクセス問題をやさしく解説</title><link>https://tominagamichiya.com/articles/surugaya_ec_breach_explained/</link><pubDate>Sun, 07 Dec 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/surugaya_ec_breach_explained/</guid><description>&lt;h2 id="状況いま何が起きているの"&gt;状況（いま何が起きているの？）&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;被害があったのは、駿河屋の公式ネットショップ「駿河屋.JP」です。&lt;/li&gt;
