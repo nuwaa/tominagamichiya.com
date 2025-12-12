@@ -4,7 +4,7 @@ description: "サイバー×偽情報対策をわかりやすく。"
 ---
 
 <div class="hero">
-  <h1>富永道也 ｜ ITジャーナリスト（サイバー・偽情報対策）</h1>
+  <h1>富永 道也｜偽情報対策アナリスト／ITジャーナリスト</h1>
   <hr>
   <p>ニュースの“難しい”を、生活の言葉へ。<br>地上波向け：<strong>30秒で要点→10秒フリップ→生活の3カ条</strong></p>
   <p><a class="btn" href="/contact/">出演・取材のご依頼</a>　<a class="btn" href="/media-kit/">Media Kit</a></p>
