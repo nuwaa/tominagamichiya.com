@@ -13,7 +13,9 @@
 &lt;/li&gt;
 &lt;li&gt;一方で、&lt;strong&gt;サービス本番環境（みなさんが実際に使っているジモティーのシステム）とは分けて運用されており、パスワードやクレジットカード情報などの流出は確認されていない&lt;/strong&gt;としています。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;まだ「第一報」であり、会社側は&lt;strong&gt;詳しい原因や影響範囲を調査中&lt;/strong&gt;です。&lt;/p&gt;</description></item><item><title>駿河屋ECサイト不正アクセス問題をやさしく解説</title><link>https://tominagamichiya.com/articles/surugaya_ec_breach_explained/</link><pubDate>Sun, 07 Dec 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/surugaya_ec_breach_explained/</guid><description>&lt;h2 id="状況いま何が起きているの"&gt;状況（いま何が起きているの？）&lt;/h2&gt;
+&lt;p&gt;まだ「第一報」であり、会社側は&lt;strong&gt;詳しい原因や影響範囲を調査中&lt;/strong&gt;です。&lt;/p&gt;</description></item><item><title>ハウステンボスの個人情報漏えい（可能性）をやさしく解説</title><link>https://tominagamichiya.com/articles/huistenbosch_personalinfo_incident_explainer_2025-12-18/</link><pubDate>Sun, 07 Dec 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/huistenbosch_personalinfo_incident_explainer_2025-12-18/</guid><description>&lt;h1 id="ハウステンボスで何が起きた結論"&gt;ハウステンボスで何が起きた？（結論）&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;テーマパーク「ハウステンボス」で、不正アクセス（サイバー攻撃）が起き、最大で約150万人分の個人情報が外部に漏れた可能性がある&lt;/strong&gt;、という話です。&lt;br&gt;
+ただし会社発表では、&lt;strong&gt;現時点で二次被害（悪用された被害）は確認されていない&lt;/strong&gt;とされています。&lt;/p&gt;</description></item><item><title>駿河屋ECサイト不正アクセス問題をやさしく解説</title><link>https://tominagamichiya.com/articles/surugaya_ec_breach_explained/</link><pubDate>Sun, 07 Dec 2025 18:00:00 +0900</pubDate><guid>https://tominagamichiya.com/articles/surugaya_ec_breach_explained/</guid><description>&lt;h2 id="状況いま何が起きているの"&gt;状況（いま何が起きているの？）&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;被害があったのは、駿河屋の公式ネットショップ「駿河屋.JP」です。&lt;/li&gt;
 &lt;li&gt;2025年7月23日12時50分〜8月8日の間に、このサイトでクレジットカード決済をした&lt;strong&gt;約3万人分&lt;/strong&gt;の情報が外部に漏れた可能性があると発表されました。&lt;/li&gt;
