@@ -6,6 +6,8 @@ layout: "profile"
 
 **富永道也｜技術と社会をつなぐテクノロジスト**
 
+<img class="profile-portrait" src="/media/tominaga.jpg" alt="富永道也のプロフィール写真" width="480" height="480" decoding="async">
+
 技術の「難しい」を、社会の言葉へ。
 
 コンピュータ、ネットワーク、通信、情報セキュリティ分野での長年の経験を基に、技術の仕組みと、暮らしや社会への影響を伝えています。

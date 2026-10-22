@@ -25,3 +25,10 @@
 }
 .home-page a,
 .profile-page a { overflow-wrap: anywhere; }
+.profile-portrait {
+  display: block;
+  width: 12rem;
+  max-width: 100%;
+  height: auto;
+  margin-block: 1rem;
+}
