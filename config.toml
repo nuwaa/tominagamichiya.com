@@ -1,6 +1,6 @@
 
 baseURL = "https://tominagamichiya.com/"
-title = "富永 道也｜偽情報対策アナリスト／ITジャーナリスト"
+title = "富永道也｜技術と社会をつなぐテクノロジスト"
 languageCode = "ja"
 hasCJKLanguage = true
 pagenate = 10
@@ -18,7 +18,7 @@ theme = "simple-news"
   twitter = "@tominagamichiya"
   x_news_account = "tominagamichiya"
   x_personal_account = "4989er"
-  site_description = "サイバー事故と偽情報対策を“生活の言葉”で30秒解説。地上波向けの分かりやすさに全振り。"
+  site_description = "技術の「難しい」を、社会の言葉へ。自ら調べ、実験し、検証する経験を基に、技術と人・組織・社会をつなぎます。"
   customCSS = ["css/site.css"]
   ga_measurement_id = "G-7HDXZ9FNLC"
 
@@ -27,6 +27,10 @@ theme = "simple-news"
     name = "ホーム"
     url = "/"
     weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
   [[menu.main]]
     name = "Topics"
     url = "/topics/"
