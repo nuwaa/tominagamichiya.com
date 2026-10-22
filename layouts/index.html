@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
+<div class="home-page">
   <div class="lead">{{ .Content }}</div>
 
   <h2>Latest Articles</h2>
@@ -20,4 +20,5 @@
   {{ end }}
 </ul>
 <h2><a href="{{ "tags/" | relURL }}">Tags</a></h2>
+</div>
 {{ end }}
