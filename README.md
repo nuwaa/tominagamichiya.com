@@ -1,64 +1,41 @@
+# tominagamichiya.com
 
-# tominagamichiya.com — Hugo Starter (静的サイト＋Pagefind＋JSON-LD)
+富永道也の個人サイト。HugoとMarkdownで管理し、Cloudflare Pagesで公開する。
 
-このスターターは、**ITジャーナリスト（サイバー・偽情報）**としての公式サイト向けに最適化しています。
+## 構成
 
-- **Hugo（静的）** + **Pagefind**（静的検索）
-- **JSON-LD**（Person / WebSite / Article） + **OG/Twitterカード**
-- **Cloudflare Pages** でのCDN配信を想定
-- 必須ページ: Top / Topics / Media Kit / Contact / Articles
+- `content/articles/<slug>/index.md`：記事
+- `content/`内のその他のページ：トップ、Topics、Media Kit、Contact、Search
+- `config.toml`：サイト設定
+- `layouts/`：優先して使うテンプレート
+- `themes/simple-news/`：同梱テーマ
+- `static/`：そのまま配信するCSS・画像
+- `assets/`：Hugoで加工する素材
+- `public/`：生成物（コミットしない）
 
-## 1) ローカル実行（初回）
+## 開発・ビルド
+
+Hugo extended **0.152.2**とNode.js/npmを用意する。現行Cloudflare本番はNode **18**、移行検証先は**22**。
 
 ```bash
-# 必要: hugo-extended, node (18+)
-npm install
+npm ci --include=dev
 npm run dev
-# -> http://localhost:1313
+# http://localhost:1313/ （下書きを含む）
 ```
-
-## 2) 本番ビルド
 
 ```bash
 npm run build
-# public/ にビルド。Pagefindで検索インデックスを生成
+# HugoとPagefindを実行しpublic/へ出力
 ```
 
-## 3) Cloudflare Pages セットアップ
+## 更新と公開
 
-1. このリポジトリを GitHub にアップロード
-2. Cloudflare Pages で New Project → GitHub を接続
-3. **Build command**: `npm run build`
-4. **Build output directory**: `public`
-5. **Environment**: Node 18+ / HUGO_VERSION = 最新の extended
-6. `tominagamichiya.com` を Cloudflare DNS で管理し、Pages に接続
+作業ブランチで編集し、PRで内容とビルドを確認する。本人がマージして`main`を更新すると、Cloudflare Pagesが`npm run build`を実行し`public`を本番公開する。
 
-## 4) 主要ファイル
+- [Codex Cloud・複数端末での日本語運用手順](docs/operations.md)
+- [旧定期処理の廃止案・Node 22移行計画](docs/maintenance-plan.md)
+- [Codexの編集ルール](AGENTS.md)
 
-- `config.toml` … サイト設定（タイトル/メニュー/構造化データの切り替え）
-- `layouts/partials/seo/` … JSON-LD と OG/Twitter メタ
-- `content/` … コンテンツ（代表記事は `content/articles/`）
-- `content/search/` … Pagefind UI（`npm run build` で `public/pagefind/` を生成）
-- `assets/css/site.css` … 追加スタイル
-- `themes/simple-news/` … 最小テーマ（ベーステンプレート）
+GitHub ActionsはPRビルド検証を担当する。GitHub Pagesは使わない。PRプレビューの有効状態はCloudflare側で確認する。本番環境変数は移行計画に従い本人の承認後に変更する。
 
-## 5) 編集フロー（TV連動）
-
-1. 速報は `content/articles/yyyymmdd-topic/index.md` を追加（600字）
-2. 24h以内に本文を追記（テンプレ: 状況/原因/問題定義/予測/対策/生活への影響）
-3. X（新アカ）に 30秒要約＋URL を投稿
-4. メディアキットは `content/media-kit/` を更新
-
-## 6) 検索（Pagefind）
-
-- `npm run build` で `npx pagefind --site public` を実行 → `public/pagefind/` 生成
-- `content/search/_index.md` の UI から検索可能
-
-## 7) 注意
-
-- OG画像の**自動画像生成**は未搭載（将来、GitHub Actions＋Playwright 等で拡張可能）。
-- いったんは**テキストOG**（タイトル/説明/サムネ固定）で運用。
-
----
-
-© 2025 Michiya Tominaga
+`draft: true`や未来日時の記事は本番ビルドに含まれない。予約日時の到来だけでは再ビルドされない。検索UI・OGP等の既存課題はビルド検証とは分けて扱う。

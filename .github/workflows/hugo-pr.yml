@@ -1,0 +1,49 @@
+name: Hugo PR build
+
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, reopened, ready_for_review]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: hugo-pr-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build (Node ${{ matrix.node }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        # 18: current Cloudflare production; 22: migration target.
+        node: ['18', '22']
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+          cache: npm
+
+      - uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.152.2'
+          extended: true
+
+      - name: Show tool versions
+        run: |
+          node --version
+          npm --version
+          hugo version
+
+      - name: Install locked dependencies
+        run: npm ci --include=dev
+
+      - name: Build Hugo and Pagefind
+        run: npm run build
