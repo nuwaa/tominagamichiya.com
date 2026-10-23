@@ -105,24 +105,30 @@ class SocialTests(unittest.TestCase):
                     if 'image' in obj:
                         self.assertEqual(obj['image'], m.one('og:image'))
 
-    def test_shared_portrait_and_square_card(self):
+    def test_shared_design_and_large_card(self):
         m = self.page('articles/social-default')
-        self.assertEqual(m.one('og:image'), BASE + '/media/tominaga.jpg')
-        self.assertEqual(m.one('og:image:width'), '480')
-        self.assertEqual(m.one('og:image:height'), '480')
-        self.assertEqual(m.one('og:image:alt'), '富永道也のプロフィール写真')
-        self.assertEqual(m.one('twitter:card'), 'summary')
+        self.assertEqual(m.one('og:image'), BASE + '/media/og-wa.jpg')
+        self.assertEqual(m.one('og:image:width'), '1200')
+        self.assertEqual(m.one('og:image:height'), '630')
+        self.assertEqual(m.one('og:image:alt'), '富永道也｜技術と社会をつなぐテクノロジスト。技術の『難しい』を、社会の言葉へ。')
+        self.assertEqual(m.one('twitter:card'), 'summary_large_image')
         self.assertEqual(m.one('og:type'), 'article')
 
-    def test_missing_empty_corrupt_and_array_fallbacks(self):
-        for slug in ('social-missing', 'social-empty', 'social-corrupt', 'social-images'):
+    def test_missing_empty_and_corrupt_fallbacks(self):
+        for slug in ('social-missing', 'social-empty', 'social-corrupt'):
             with self.subTest(slug=slug):
-                self.assertEqual(self.page('articles/' + slug).one('og:image'), BASE + '/media/tominaga.jpg')
+                self.assertEqual(self.page('articles/' + slug).one('og:image'), BASE + '/media/og-wa.jpg')
+
+    def test_individual_square_image_array_overrides_shared_design(self):
+        m = self.page('articles/social-images')
+        self.assertEqual(m.one('og:image'), BASE + '/media/tominaga.jpg')
+        self.assertEqual(m.one('twitter:card'), 'summary')
 
     def test_page_bundle_overrides_array_and_shared_image(self):
         m = self.page('articles/social-bundle')
         self.assertEqual(m.one('og:image'), BASE + '/articles/social-bundle/cover.jpg')
         self.assertEqual(m.one('og:image:alt'), '個別写真')
+        self.assertEqual(m.one('twitter:card'), 'summary')
         self.assertTrue((self.site / 'public/articles/social-bundle/cover.jpg').is_file())
 
     def test_remote_image_and_escaped_page_metadata(self):
@@ -138,7 +144,7 @@ class SocialTests(unittest.TestCase):
         config = self.site / 'config.toml'
         original = config.read_text()
         try:
-            config.write_text(original.replace('og_default_image = "/media/tominaga.jpg"', 'og_default_image = "/media/empty.jpg"'))
+            config.write_text(original.replace('og_default_image = "/media/og-wa.jpg"', 'og_default_image = "/media/empty.jpg"'))
             result = self.build()
             self.assertNotEqual(result.returncode, 0)
             self.assertIn('No usable social image', result.stdout + result.stderr)

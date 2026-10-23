@@ -19,9 +19,9 @@ theme = "simple-news"
   x_news_account = "tominagamichiya"
   x_personal_account = "4989er"
   site_description = "技術の「難しい」を、社会の言葉へ。自ら調べ、実験し、検証する経験を基に、技術と人・組織・社会をつなぎます。"
-  # Existing portrait used until a dedicated shared social image is prepared.
-  og_default_image = "/media/tominaga.jpg"
-  og_default_image_alt = "富永道也のプロフィール写真"
+  # Shared social card: selected design 09 (Japanese editorial whitespace).
+  og_default_image = "/media/og-wa.jpg"
+  og_default_image_alt = "富永道也｜技術と社会をつなぐテクノロジスト。技術の『難しい』を、社会の言葉へ。"
   customCSS = ["css/site.css"]
   ga_measurement_id = "G-7HDXZ9FNLC"
 
