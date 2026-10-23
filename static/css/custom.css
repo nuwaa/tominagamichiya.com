@@ -127,7 +127,15 @@ button, input, textarea, select { font: inherit; }
 .breadcrumbs { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; font-size: .86rem; color: var(--muted); }
 .post-body { margin-top: 2rem; }
 .post-body > h1 { font-size: 1.7rem; }
-.post-body table { display: block; max-width: 100%; overflow-x: auto; }
+/* Raw HTML tables keep their existing inline styling and overflow fallback. */
+.post-body table:not(.markdown-table) { display: block; max-width: 100%; overflow-x: auto; }
+.post-body .table-hint { margin: 1.5rem 0 .5rem; color: var(--muted); font-size: .88rem; }
+.post-body .table-scroll { max-width: 100%; overflow-x: auto; margin: 0 0 1.5rem; }
+.post-body .table-scroll:focus-visible { outline: 3px solid var(--teal-dark); outline-offset: 3px; }
+.post-body .markdown-table { display: table; width: 100%; border-collapse: collapse; background: var(--white); text-align: left; line-height: 1.7; }
+.post-body .markdown-table th, .post-body .markdown-table td { min-width: 10rem; padding: .75rem 1rem; border: 1px solid var(--line); vertical-align: top; word-break: normal; overflow-wrap: anywhere; }
+.post-body .markdown-table th { color: var(--white); background: var(--navy); font-weight: 700; border-bottom: 3px solid var(--teal); }
+.post-body .markdown-table tbody tr:nth-child(even) { background: var(--tint); }
 .post-body pre { max-width: 100%; overflow-x: auto; padding: 1rem; background: var(--tint); border-radius: .5rem; }
 .post-body blockquote { margin-inline: 0; padding: 1rem 1.5rem; border-left: 3px solid var(--teal); background: var(--tint); }
 .related { margin-top: 3rem; }

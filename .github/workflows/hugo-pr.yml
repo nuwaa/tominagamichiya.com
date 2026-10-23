@@ -50,3 +50,9 @@ jobs:
 
       - name: Check editorial publication and companion rules
         run: python3 scripts/test_editorial.py
+
+      - name: Check Markdown table rendering
+        run: python3 scripts/test_tables.py
+
+      - name: Check Markdown strong emphasis
+        run: python3 scripts/test_emphasis.py
