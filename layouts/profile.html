@@ -1,6 +1,20 @@
 {{ define "main" }}
-<article class="profile-page">
-  <h1>{{ .Title }}</h1>
-  <div class="profile-body">{{ .Content }}</div>
+<article class="profile-page {{ if eq .RelPermalink "/media-kit/" }}media-kit{{ else }}about-page{{ end }}">
+  <header class="profile-header">
+    <p class="eyebrow">{{ if eq .RelPermalink "/media-kit/" }}報道・編集・企画のご担当者へ{{ else }}プロフィール{{ end }}</p>
+    <h1>{{ .Title }}</h1>
+    {{ if eq .RelPermalink "/media-kit/" }}<a class="button button-primary" href="{{ "contact/" | relURL }}">取材・講演のご相談</a>{{ end }}
+  </header>
+  <details class="page-contents">
+    <summary>このページの内容</summary>
+    {{ if eq .RelPermalink "/media-kit/" }}
+    <ul class="contents-intro">
+      <li><a href="#bio-short">掲載用略歴（約90字）</a></li>
+      <li><a href="#bio-standard">掲載用略歴（約200字）</a></li>
+    </ul>
+    {{ end }}
+    {{ .TableOfContents }}
+  </details>
+  <div class="profile-body prose">{{ .Content }}</div>
 </article>
 {{ end }}

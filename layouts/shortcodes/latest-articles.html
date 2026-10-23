@@ -1,0 +1,24 @@
+<section class="home-section latest" aria-labelledby="latest-title">
+  <div class="section-heading">
+    <h2 id="latest-title">最新記事</h2>
+    <a class="text-action" href="{{ "articles/" | relURL }}">すべての記事を見る <span aria-hidden="true">→</span></a>
+  </div>
+  <ul class="latest-list">
+    {{ $articles := where .Page.Site.RegularPages "Section" "articles" }}
+    {{ range first 5 (sort $articles "Date" "desc") }}
+    <li>
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time>
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    </li>
+    {{ end }}
+  </ul>
+  <div class="article-discovery">
+    <h3>カテゴリから探す</h3>
+    <ul class="category-links">
+      {{ range .Page.Site.Taxonomies.categories.Alphabetical }}
+      <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}<span class="count">{{ .Count }}<span class="sr-only">件</span></span></a></li>
+      {{ end }}
+    </ul>
+    <a class="text-action" href="{{ "tags/" | relURL }}">タグから探す <span aria-hidden="true">→</span></a>
+  </div>
+</section>
