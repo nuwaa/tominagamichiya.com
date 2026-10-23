@@ -4,6 +4,7 @@ date: 2025-11-24T18:00:00+09:00
 categories: ["子ども-学校とデジタル"]
 tags: ["中高生"]
 lastmod: 2026-10-24T01:30:19+09:00
+audiences: ["general"]
 ---
 
 ## 状況
