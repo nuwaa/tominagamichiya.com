@@ -34,6 +34,16 @@ draft: false
 「**読者に必要な情報**」を伝えます。
 
 - **リスト内の強調**も表示します。
+
+**能動的サイバー防御（ACD）** は仕組みの説明です。
+
+文中の **「引用符で囲む強調」** も表示します。
+
+`**コードの記号はそのまま**`
+
+```markdown
+**コードブロックの記号もそのまま**
+```
 """, encoding="utf-8")
 
         # Rendering checks include saved drafts only in this temporary test site.
@@ -45,12 +55,15 @@ draft: false
         if result.returncode:
             raise AssertionError(result.stdout + result.stderr)
 
-    def strong_texts(self, slug):
+    def article_body(self, slug):
         html = (self.site / f"public/articles/{slug}/index.html").read_text(encoding="utf-8")
         doc = Document(html).root
         bodies = [node for node in doc.all("div") if node.attrs.get("class") == "post-body"]
         self.assertEqual(len(bodies), 1, f"Missing article body: {slug}")
-        return [node.text() for node in bodies[0].all("strong")]
+        return bodies[0]
+
+    def strong_texts(self, slug):
+        return [node.text() for node in self.article_body(slug).all("strong")]
 
     def test_japanese_prose_fixture(self):
         strongs = self.strong_texts("emphasis-fixture")
@@ -60,6 +73,41 @@ draft: false
 
     def test_existing_kawaii_gpt_article(self):
         self.assertIn("「AI対AI」の攻防", self.strong_texts("kawaii_gpt_report"))
+
+    def test_existing_acd_article(self):
+        strongs = self.strong_texts("acd")
+        for text in (
+            "能動的サイバー防御（ACD）",
+            "怪しい兆しを早めに見つけて先回りし、攻撃に使われる仕組みを止める（無害化する）",
+            "「サイバー通信情報監理委員会」",
+            "「やる側」だけで勝手にやらせないための“監視員”",
+        ):
+            with self.subTest(text=text):
+                self.assertIn(text, strongs)
+
+    def test_punctuation_boundaries_and_literal_code(self):
+        body = self.article_body("emphasis-fixture")
+        self.assertIn("能動的サイバー防御（ACD）", self.strong_texts("emphasis-fixture"))
+        self.assertIn("「引用符で囲む強調」", self.strong_texts("emphasis-fixture"))
+        self.assertEqual(
+            [node.text().strip() for node in body.all("code")],
+            ["**コードの記号はそのまま**", "**コードブロックの記号もそのまま**"],
+        )
+
+    def test_all_articles_have_no_unrendered_strong_markers(self):
+        # Inspect text nodes, not HTML source; code samples may legitimately
+        # contain literal Markdown. Include drafts in this temporary build.
+        def prose(node):
+            if isinstance(node, str):
+                return node
+            if node.tag in {"code", "pre", "script", "style"}:
+                return ""
+            return "".join(prose(child) for child in node.children)
+
+        self.assertTrue(list((self.site / "public/articles").glob("*/index.html")))
+        for page in sorted((self.site / "public/articles").glob("*/index.html")):
+            with self.subTest(article=page.parent.name):
+                self.assertNotIn("**", prose(self.article_body(page.parent.name)))
 
     def test_existing_online_casino_article(self):
         self.assertIn(
