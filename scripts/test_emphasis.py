@@ -66,6 +66,19 @@ draft: false
             self.strong_texts("online-casino-teens"),
         )
 
+    def test_technologist_general_article_strong(self):
+        self.assertIn(
+            "技術の「難しい」を、社会の言葉へ。",
+            self.strong_texts("why-i-call-myself-a-technologist"),
+        )
+
+    def test_technologist_technical_article_strong(self):
+        self.assertIn(
+            "架空の事例",
+            self.strong_texts("why-i-call-myself-a-technologist-technical"),
+        )
+
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
