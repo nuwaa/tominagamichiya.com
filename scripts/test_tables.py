@@ -76,7 +76,8 @@ draft: false
 | --- | --- |
 | 二つ目の表 | 内容 |
 ''')
-        result = subprocess.run(['hugo', '--source', str(cls.site), '--cacheDir', str(cls.site / 'cache')], text=True, capture_output=True)
+        # Rendering checks include saved drafts only in this temporary test site.
+        result = subprocess.run(['hugo', '--buildDrafts', '--source', str(cls.site), '--cacheDir', str(cls.site / 'cache')], text=True, capture_output=True)
         if result.returncode:
             raise AssertionError(result.stdout + result.stderr)
 

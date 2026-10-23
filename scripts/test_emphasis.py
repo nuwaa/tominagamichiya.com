@@ -36,8 +36,9 @@ draft: false
 - **リスト内の強調**も表示します。
 """, encoding="utf-8")
 
+        # Rendering checks include saved drafts only in this temporary test site.
         result = subprocess.run(
-            ["hugo", "--source", str(cls.site),
+            ["hugo", "--buildDrafts", "--source", str(cls.site),
              "--cacheDir", str(cls.site / "cache")],
             text=True, capture_output=True,
         )

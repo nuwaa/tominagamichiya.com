@@ -1,7 +1,7 @@
 ---
 title: "Claude Codeで作ったサイトを、Codex Cloudで引き継いでみた"
 date: 2026-10-23T09:00:00+09:00
-draft: false
+draft: true
 description: "更新方法を忘れてしまったHugo製の個人サイトを、Codex Cloudに解析させ、GitHubとCloudflare Pagesで再び更新できるようにした記録。AIで作ったものをAIで保守するには何が必要か。"
 categories: ["しくみから学ぶデジタル社会"]
 tags: ["Codex", "Claude Code", "Hugo", "GitHub", "Cloudflare Pages", "生成AI"]
