@@ -172,3 +172,16 @@ button, input, textarea, select { font: inherit; }
   .prose h2, .post-body h2 { margin-top: 2.5rem; }
   .footer-inner { padding-block: 2rem; }
 }
+
+/* Reader navigation: no JavaScript, usable on narrow screens. */
+.audience-filter { display: flex; flex-wrap: wrap; gap: .6rem; margin-block: 1.5rem; }
+.audience-filter a, .audience-badge a { display: inline-flex; align-items: center; min-height: 44px; padding: .4rem .9rem; border: 1px solid var(--teal); border-radius: .5rem; color: var(--teal-dark); background: var(--white); }
+.audience-filter a[aria-current="page"] { color: var(--white); background: var(--navy); border-color: var(--navy); }
+.audience-badge { margin-block: .7rem; font-size: .9rem; }
+.companion-notice { margin-block: 1.5rem; padding: 1rem 1.25rem; background: var(--tint); border-left: 4px solid var(--teal); border-radius: .4rem; overflow-wrap: anywhere; }
+.companion-notice a { display: block; min-height: 44px; padding-block: .3rem; font-weight: 700; }
+.companion-notice span { display: block; color: var(--muted); font-size: .9rem; }
+.editorial-articles { padding: 0; list-style: none; }
+.editorial-articles > li { padding-block: 1.5rem; border-bottom: 1px solid var(--line); overflow-wrap: anywhere; }
+.editorial-articles h2 { margin: 0; font-size: 1.25rem; }
+.article-date { color: var(--muted); font-size: .9rem; margin-block: .5rem; }

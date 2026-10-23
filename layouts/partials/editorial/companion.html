@@ -1,0 +1,28 @@
+{{- $audience := partial "editorial/audience.html" . -}}
+{{- with .Params.companion -}}
+  {{- $ref := . -}}
+  {{- if not (hasPrefix $ref "/articles/") -}}
+    {{- errorf "%s: companion must be an absolute content path /articles/<slug>" $.Path -}}
+  {{- else if not $audience -}}
+    {{- errorf "%s: companion requires an audience" $.Path -}}
+  {{- else -}}
+    {{- with $.Site.GetPage $ref -}}
+      {{- $target := . -}}
+      {{- if and (partial "editorial/is-public.html" $) (partial "editorial/is-public.html" $target) -}}
+        {{- $other := partial "editorial/audience.html" $target -}}
+        {{- $back := false -}}
+        {{- with $target.Params.companion -}}
+          {{- with $.Site.GetPage . -}}{{- $back = eq .Path $.Path -}}{{- end -}}
+        {{- end -}}
+        {{- if or (eq $target.Path $.Path) (not $other) (eq $other $audience) (not $back) -}}
+          {{- errorf "%s: published companion %s must have the opposite audience and refer back" $.Path $target.Path -}}
+        {{- else -}}
+<aside class="companion-notice" aria-label="対応する解説">
+  <a href="{{ $target.RelPermalink }}">{{ if eq $audience "general" }}もっと詳しく知りたい人へ：技術者向けの解説{{ else }}まず全体像を知りたい人へ：一般向けの解説{{ end }}</a>
+  <span>{{ $target.Title }}</span>
+</aside>
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

@@ -1,0 +1,6 @@
+<nav class="audience-filter" aria-label="読者別に記事を探す">
+  {{ $current := .RelPermalink }}
+  {{ range slice (dict "url" "/articles/" "label" "すべての記事") (dict "url" "/audiences/general/" "label" "一般向け") (dict "url" "/audiences/technical/" "label" "技術者向け") }}
+  <a href="{{ .url | relURL }}"{{ if eq $current (.url | relURL) }} aria-current="page"{{ end }}>{{ .label }}</a>
+  {{ end }}
+</nav>

@@ -1,0 +1,14 @@
+{{- $audience := "" -}}
+{{- with .Params.audiences -}}
+  {{- if not (reflect.IsSlice .) -}}
+    {{- errorf "%s: audiences must be an array" $.Path -}}
+  {{- else if ne (len .) 1 -}}
+    {{- errorf "%s: audiences must contain exactly one of general or technical; omit for unclassified articles" $.Path -}}
+  {{- else -}}
+    {{- $audience = index . 0 -}}
+    {{- if not (in (slice "general" "technical") $audience) -}}
+      {{- errorf "%s: unknown audience %v" $.Path $audience -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $audience -}}
