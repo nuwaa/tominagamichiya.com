@@ -1,0 +1,14 @@
+<header class="site-header">
+  <div class="header-inner">
+    <a class="site-brand" href="{{ "/" | relURL }}">
+      <span class="brand-name">富永道也</span>
+      <span class="brand-description">技術と社会をつなぐテクノロジスト</span>
+    </a>
+    <nav class="site-nav" aria-label="メインナビゲーション">
+      {{ $current := .RelPermalink }}
+      {{ range slice (dict "url" "/" "label" "ホーム") (dict "url" "/about/" "label" "About") (dict "url" "/media-kit/" "label" "Media Kit") (dict "url" "/articles/" "label" "記事一覧") (dict "url" "/contact/" "label" "お問い合わせ") }}
+      <a href="{{ .url | relURL }}"{{ if eq $current .url }} aria-current="page"{{ else if and (ne .url "/") (hasPrefix $current .url) }} aria-current="true"{{ end }}>{{ .label }}</a>
+      {{ end }}
+    </nav>
+  </div>
+</header>

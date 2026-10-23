@@ -1,1 +1,14 @@
-<footer class="site-footer"><hr><small>&copy; 2025 {{ site.Title }}</small></footer>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <a class="footer-name" href="{{ "/" | relURL }}">富永道也</a>
+      <p>技術の「難しい」を、社会の言葉へ。</p>
+    </div>
+    <nav class="footer-nav" aria-label="フッターナビゲーション">
+      <a href="{{ "about/" | relURL }}">About</a>
+      <a href="{{ "media-kit/" | relURL }}">Media Kit</a>
+      <a href="{{ "contact/" | relURL }}">お問い合わせ</a>
+    </nav>
+    <small class="copyright">&copy; {{ now.Year }} 富永道也</small>
+  </div>
+</footer>
