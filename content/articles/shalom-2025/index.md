@@ -4,6 +4,7 @@ draft: false           # ← これが true だと表示されない（-Dで表�
 date: 2025-11-13T18:00:00+09:00
 categories: ["暮らしを直撃するデジタルトラブル"]
 tags: ["システム障害"]
+audiences: ["general"]
 ---
 
 ## 状況  

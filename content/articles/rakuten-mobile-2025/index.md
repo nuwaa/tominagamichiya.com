@@ -4,6 +4,7 @@ draft: false           # ← これが true だと表示されない（-Dで表�
 date: 2025-11-29T18:00:00+09:00
 categories: ["子ども-学校とデジタル"]
 tags: ["中高生"]
+audiences: ["general"]
 ---
 
 ## ■状況

@@ -4,6 +4,7 @@ draft: false           # ← これが true だと表示されない（-Dで表�
 date: 2025-12-08T18:00:01+09:00
 categories: ["偽情報-AIとメディアリテラシー"]
 tags: ["偽情報", "メディアリテラシー"]
+audiences: ["general"]
 ---
 
 ## はじめに

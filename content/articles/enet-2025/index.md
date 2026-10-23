@@ -4,6 +4,7 @@ draft: false           # ← これが true だと表示されない（-Dで表�
 date: 2025-11-12T18:00:00+09:00
 categories: ["お金-決済とセキュリティ"]
 tags: ["インフラ", "ATM"]
+audiences: ["general"]
 ---
 
 ## 1. 状況  

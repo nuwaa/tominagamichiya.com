@@ -4,6 +4,7 @@ draft: false           # ← これが true だと表示されない（-Dで表�
 date: 2025-11-27T18:00:00+09:00
 categories: ["お金-決済とセキュリティ"]
 tags: ["キャッシュレス", "交通系IC", "コード決済"]
+audiences: ["general"]
 ---
 
 ## 状況  

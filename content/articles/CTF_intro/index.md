@@ -5,6 +5,7 @@ date: 2025-11-30T18:00:00+09:00
 categories: ["しくみから学ぶデジタル社会"]
 tags: ["CTF"]
 lastmod: 2026-10-24T01:30:19+09:00
+audiences: ["general"]
 ---
 
 ## 1. まずはざっくり
