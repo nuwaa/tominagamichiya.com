@@ -1,0 +1,6 @@
+{{- $title := .Title -}}
+{{- if .IsHome }}{{ $title = .Site.Title }}{{ end -}}
+{{- $description := .Params.description | default (.Summary | plainify | htmlUnescape | truncate 150) | default .Site.Params.site_description -}}
+{{- $type := "website" -}}
+{{- if and .IsPage (eq .Section "articles") }}{{ $type = "article" }}{{ end -}}
+{{- return (dict "title" $title "description" ($description | plainify | htmlUnescape) "type" $type "image" (partial "seo/image.html" .)) -}}

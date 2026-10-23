@@ -1,0 +1,36 @@
+{{/* Resolve a page override before the configured common image. No remote fetches. */}}
+{{- $page := . -}}
+{{- $candidates := slice -}}
+{{- with .Params.image }}{{ $candidates = $candidates | append (dict "path" . "alt" ($page.Params.image_alt | default $page.Title)) }}{{ end -}}
+{{- with .Params.images }}{{ range . }}{{ $candidates = $candidates | append (dict "path" . "alt" ($page.Params.image_alt | default $page.Title)) }}{{ end }}{{ end -}}
+{{- with .Site.Params.og_default_image }}{{ $candidates = $candidates | append (dict "path" . "alt" $page.Site.Params.og_default_image_alt) }}{{ end -}}
+{{- $image := dict -}}
+{{- range $candidates -}}
+  {{- if not $image -}}
+    {{- $path := .path -}}
+    {{- $alt := .alt -}}
+    {{- if or (hasPrefix $path "https://") (hasPrefix $path "http://") -}}
+      {{- $image = dict "url" $path "alt" .alt "card" "summary_large_image" -}}
+    {{- else -}}
+      {{- $diskPath := printf "static/%s" (strings.TrimPrefix "/" $path) -}}
+      {{- $url := $path | absURL -}}
+      {{- if not (hasPrefix $path "/") -}}
+        {{- with $page.Resources.GetMatch $path -}}
+          {{- $diskPath = printf "content/%s%s" $page.File.Dir $path -}}
+          {{- $url = .Permalink -}}
+        {{- end -}}
+      {{- end -}}
+      {{- if fileExists $diskPath -}}
+        {{- with try (images.Config $diskPath) -}}
+          {{- if not .Err -}}
+            {{- $card := "summary" -}}
+            {{- if ge (div (float .Value.Width) .Value.Height) 1.5 }}{{ $card = "summary_large_image" }}{{ end -}}
+            {{- $image = dict "url" $url "alt" $alt "width" .Value.Width "height" .Value.Height "card" $card -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $image }}{{ errorf "No usable social image for %s; check params.og_default_image" .RelPermalink }}{{ end -}}
+{{- return $image -}}

@@ -1,19 +1,19 @@
 {{ if .IsPage }}
+{{ $image := partial "seo/image.html" . }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "NewsArticle",
-  "headline": {{ .Title | jsonify }},
+  "headline": {{ .Title | jsonify | safeJS }},
   "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
   "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
-  "author": { "@type": "Person", "name": {{ (or .Params.author .Site.Params.author | default "富永道也") | jsonify }} },
+  "author": { "@type": "Person", "name": {{ (or .Params.author .Site.Params.author | default "富永道也") | jsonify | safeJS }} },
   "publisher": {
     "@type": "Organization",
-    "name": {{ (.Site.Params.publisher | default .Site.Title) | jsonify }},
-    "logo": { "@type": "ImageObject", "url": {{ ("images/logo.png" | absURL) | jsonify }} }
+    "name": {{ (.Site.Params.publisher | default .Site.Title) | jsonify | safeJS }}
   },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ .Permalink }}" },
-  "image": {{ (or (.Params.image | absURL) ("images/ogp-default.png" | absURL)) | jsonify }}
+  "image": {{ $image.url | jsonify | safeJS }}
 }
 </script>
 {{ end }}
