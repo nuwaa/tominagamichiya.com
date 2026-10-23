@@ -56,3 +56,6 @@ jobs:
 
       - name: Check Markdown strong emphasis
         run: python3 scripts/test_emphasis.py
+
+      - name: Check shared OGP and X metadata
+        run: python3 scripts/test_social.py
