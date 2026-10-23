@@ -7,6 +7,8 @@ import subprocess
 import tempfile
 import unittest
 
+from test_tables import Document
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -93,6 +95,45 @@ class EditorialTests(unittest.TestCase):
         for term in ("general", "technical"):
             self.assertIn("この分類の記事は準備中", self.html(f"audiences/{term}"))
             self.assertNotIn("Fixture legacy", self.html(f"audiences/{term}"))
+
+    def test_article_list_summaries(self):
+        self.article("described", ["general"], description="記事固有の説明文を優先します。")
+        self.article("legacy")
+        self.article("empty", ["general"], description="")
+        self.article("manual", summary="手動で設定した概要も使えます。")
+        self.article("hidden-draft", description="非公開の概要", draft=True)
+        self.article("hidden-future", description="未来の概要", date="2999-01-01T00:00:00+09:00")
+        text = "去年の記事の内容を紹介します。" * 20
+        path = self.site / "content/articles/legacy/index.md"
+        path.write_text(path.read_text().replace("Fixture body.", f"**{text}**"))
+        self.build()
+
+        def summaries(output):
+            doc = Document(self.html(output)).root
+            listing = next(node for node in doc.all("ul")
+                           if node.attrs.get("class") == "editorial-articles")
+            result = {}
+            for item in listing.all("li"):
+                link = item.all("h2")[0].all("a")[0].attrs["href"]
+                paragraphs = [node for node in item.all("p")
+                              if node.attrs.get("class") == "post-summary"]
+                self.assertEqual(len(paragraphs), 1, link)
+                self.assertEqual(paragraphs[0].children, [paragraphs[0].text()])
+                result[link] = paragraphs[0].text().strip()
+            return result
+
+        articles = summaries("articles")
+        self.assertEqual(articles["/articles/described/"], "記事固有の説明文を優先します。")
+        self.assertTrue(articles["/articles/legacy/"].startswith("去年の記事の内容を紹介します。"))
+        self.assertLessEqual(len(articles["/articles/legacy/"]), 125)
+        self.assertNotIn("**", articles["/articles/legacy/"])
+        self.assertEqual(articles["/articles/empty/"], "Fixture body.")
+        self.assertEqual(articles["/articles/manual/"], "手動で設定した概要も使えます。")
+        self.assertNotIn("/articles/hidden-draft/", articles)
+        self.assertNotIn("/articles/hidden-future/", articles)
+        audience = summaries("audiences/general")
+        self.assertEqual(audience["/articles/empty/"], "Fixture body.")
+        self.assertEqual(audience["/articles/described/"], articles["/articles/described/"])
 
     def test_nonpublic_targets_absent_from_output(self):
         cases = [dict(draft=True), dict(date="2999-01-01T00:00:00+09:00"),

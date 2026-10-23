@@ -4,7 +4,13 @@
   <li><h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
     <p class="article-date">{{ .Date.Format "2006年1月2日" }}</p>
     {{ partial "editorial/badge.html" . }}
-    {{ with .Params.description }}<p>{{ . }}</p>{{ end }}
+    {{ with .Params.description }}
+      <p class="post-summary">{{ . }}</p>
+    {{ else }}
+      {{ with .Summary | plainify | htmlUnescape | truncate 120 }}
+        <p class="post-summary">{{ . }}</p>
+      {{ end }}
+    {{ end }}
   </li>
   {{ end }}
 {{ end }}
