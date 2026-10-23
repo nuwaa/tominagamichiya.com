@@ -87,6 +87,7 @@ theme = "simple-news"
 [taxonomies]
   category = "categories"
   tag = "tags"
+  audience = "audiences"
 
 [sitemap]
   changefreq = "daily"

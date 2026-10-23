@@ -6,7 +6,14 @@
   <br>
   {{ with .Date }}公開日：{{ .Format "2006-01-02" }}{{ end }}　{{ with .Lastmod }}更新日：{{ .Format "2006-01-02" }}{{ end }}
 
+  {{ if eq .Section "articles" }}
+    {{ partial "editorial/badge.html" . }}
+    {{ partial "editorial/companion.html" . }}
+  {{ end }}
+
   <div class="post-body">{{ .Content }}</div>
+
+  {{ if eq .Section "articles" }}{{ partial "editorial/companion.html" . }}{{ end }}
 
   <hr>
   <section class="related">

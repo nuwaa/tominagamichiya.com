@@ -10,6 +10,9 @@
 
 ## 記事・固定ページ
 
+- 記事の執筆・改稿前に必ず`docs/editorial-guidelines.md`を読み、読者・疑問・影響・判断・行動・根拠・別レベル記事の必要性を整理する。一般向けと技術者向けは独立して設計し、それぞれの公開前レビューを行う。
+- 分類と対応記事の設定は`docs/article-workflow.md`に従う。既存記事を一律に分類しない。公開済みの対応記事は事実認識と相互参照を確認する。
+
 - 記事は`content/articles/<slug>/index.md`。新規slugは英小文字・数字・ハイフンを基本とする。既存記事のフォルダ名・URLは維持する。
 - front matterにタイトル、`date`（`+09:00`付き）、`draft`、`description`、既存表記の`categories`、必要な`tags`を記載する。
 - 新規原稿は原則`draft: true`。公開前確認のため`draft: false`へ変更する場合はPRで明示し、マージすると公開対象になることを説明する。

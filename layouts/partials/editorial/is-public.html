@@ -1,0 +1,2 @@
+{{- $public := and (eq .Kind "page") (eq .Section "articles") (not .Draft) (not (.Date.After now)) (not (.PublishDate.After now)) (or .ExpiryDate.IsZero (.ExpiryDate.After now)) -}}
+{{- return (and $public (ne (.OutputFormats.Get "HTML") nil)) -}}

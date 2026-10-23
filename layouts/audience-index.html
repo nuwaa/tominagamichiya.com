@@ -1,0 +1,6 @@
+{{ define "main" }}
+<section><h1>{{ .Title }}</h1>
+{{ partial "editorial/filter.html" . }}
+<div class="prose">{{ .Content }}</div>
+</section>
+{{ end }}

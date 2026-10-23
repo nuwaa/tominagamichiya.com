@@ -1,11 +1,9 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
-  <ul>
-  {{ range .Pages.ByDate.Reverse }}
-    <li>
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      {{ if not .Date.IsZero }}<small>{{ .Date.Format "2006-01-02" }}</small>{{ end }}
-    </li>
-  {{ end }}
-  </ul>
+<section aria-labelledby="articles-heading">
+  <h1 id="articles-heading">記事一覧</h1>
+  {{ partial "editorial/filter.html" . }}
+  <p>読者別の分類は、編集方針に沿って確認した記事から順次追加しています。未分類の記事も「すべての記事」に掲載しています。</p>
+  <p><a href="{{ "/categories/" | relURL }}">カテゴリーから探す</a> · <a href="{{ "/tags/" | relURL }}">タグから探す</a></p>
+  {{ partial "editorial/article-list.html" .Pages }}
+</section>
 {{ end }}

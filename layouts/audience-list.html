@@ -1,0 +1,7 @@
+{{ define "main" }}
+<section><h1>{{ .Title }}</h1>
+{{ partial "editorial/filter.html" . }}
+<div class="prose">{{ .Content }}</div>
+{{ if .Pages }}{{ partial "editorial/article-list.html" .Pages }}{{ else }}<p>この分類の記事は準備中です。<a href="{{ "/articles/" | relURL }}">すべての記事を見る</a></p>{{ end }}
+</section>
+{{ end }}

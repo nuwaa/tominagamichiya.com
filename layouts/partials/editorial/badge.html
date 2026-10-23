@@ -1,0 +1,4 @@
+{{- $audience := partial "editorial/audience.html" . -}}
+{{- with $audience -}}
+<p class="audience-badge"><a href="{{ printf "/audiences/%s/" . | relURL }}">{{ if eq . "general" }}一般向け{{ else }}技術者向け{{ end }}</a></p>
+{{- end -}}

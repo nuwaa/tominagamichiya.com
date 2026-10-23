@@ -1,0 +1,11 @@
+<ul class="editorial-articles">
+{{ range .ByDate.Reverse }}
+  {{ if partial "editorial/is-public.html" . }}
+  <li><h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    <p class="article-date">{{ .Date.Format "2006年1月2日" }}</p>
+    {{ partial "editorial/badge.html" . }}
+    {{ with .Params.description }}<p>{{ . }}</p>{{ end }}
+  </li>
+  {{ end }}
+{{ end }}
+</ul>
