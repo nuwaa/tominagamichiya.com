@@ -19,11 +19,15 @@ description: "技術の「難しい」を、社会の言葉へ。富永道也が
 <a class="button button-secondary" href="/media-kit/">Media Kit</a>
 <a class="text-action" href="/contact/">取材・講演のご相談 <span aria-hidden="true">→</span></a>
 </div>
+
+<p>日々の技術実験や個人的な考察は、私のXアカウント <a href="https://x.com/4989er">@4989er</a> で発信しています。</p>
 </div>
 <div class="hero-visual">
 <img class="profile-portrait" src="/media/tominaga.jpg" alt="富永道也のプロフィール写真" width="480" height="480" decoding="async">
 </div>
 </div>
+
+<p>企業・団体向けのIT・AI・セキュリティ支援は、事業サイト <a href="https://yongfuhua.jp/">永富華</a> でご案内しています。</p>
 
 <section class="home-section achievements" aria-labelledby="achievements-title">
 <h2 id="achievements-title">主な実績</h2>
@@ -65,6 +69,6 @@ description: "技術の「難しい」を、社会の言葉へ。富永道也が
 <section class="home-section business" aria-labelledby="business-title">
 <h2 id="business-title">企業向けの支援について</h2>
 
-[永富華](https://yongfuhua.jp/)の事業として、企業向けのIT・AI・セキュリティ支援を行っています。個人の発信活動と事業活動を区別し、企業向け支援の内容は永富華のウェブサイトで案内しています。
+富永道也の事業活動として、永富華でIT・AI・セキュリティ支援を行っています。支援内容、研修、顧問契約については、[永富華の公式サイト](https://yongfuhua.jp/)をご覧ください。
 
 </section>

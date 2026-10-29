@@ -9,8 +9,8 @@
   "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
   "author": { "@type": "Person", "name": {{ (or .Params.author .Site.Params.author | default "富永道也") | jsonify | safeJS }} },
   "publisher": {
-    "@type": "Organization",
-    "name": {{ (.Site.Params.publisher | default .Site.Title) | jsonify | safeJS }}
+    "@type": "Person",
+    "name": {{ (.Site.Params.publisher | default .Site.Params.author | default "富永道也") | jsonify | safeJS }}
   },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ .Permalink }}" },
   "image": {{ $image.url | jsonify | safeJS }}

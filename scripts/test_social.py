@@ -114,6 +114,17 @@ class SocialTests(unittest.TestCase):
         self.assertEqual(m.one('twitter:card'), 'summary_large_image')
         self.assertEqual(m.one('og:type'), 'article')
 
+    def test_article_publisher_is_tominaga_as_a_person(self):
+        pages = list((self.site / 'public/articles').glob('*/index.html'))
+        self.assertTrue(pages)
+        for path in pages:
+            with self.subTest(path=str(path)):
+                articles = [obj for obj in Metadata(path.read_text()).jsonld
+                            if obj.get('@type') == 'NewsArticle']
+                self.assertEqual(len(articles), 1)
+                self.assertEqual(articles[0]['publisher'],
+                                 {'@type': 'Person', 'name': '富永道也'})
+
     def test_missing_empty_and_corrupt_fallbacks(self):
         for slug in ('social-missing', 'social-empty', 'social-corrupt'):
             with self.subTest(slug=slug):
