@@ -6,11 +6,15 @@ layout: "profile"
 
 **富永道也｜技術と社会をつなぐテクノロジスト**
 
+TOMINAGA Michiya
+
 <img class="profile-portrait" src="/media/tominaga.jpg" alt="富永道也のプロフィール写真" width="480" height="480" decoding="async">
 
 技術の「難しい」を、社会の言葉へ。
 
 コンピュータ、ネットワーク、通信、情報セキュリティ分野での長年の経験を基に、技術の仕組みと、暮らしや社会への影響を伝えています。
+
+Xでは[@4989er](https://x.com/4989er)として、技術実験や日々の考察を発信しています。発信先や公開コードは、このページの[発信・技術活動](#activities)にまとめています。
 
 ## 学位
 
@@ -64,6 +68,24 @@ Code for Japanの公式報告には、ハッカソン開催前から働きかけ
 
 - IPAセキュリティプレゼンター登録
 
+公開バッジの確認先：[Open Badgesの公開ページ](https://www.openbadge-global.com/ns/portal/openbadge/public/assertions/user/K2x1TXcyVnFZT0t4enpoN0VWQnc0Zz09)。各バッジの内容・発行者・認定条件は、リンク先の説明をご確認ください。
+
+## 発信・技術活動 {#activities}
+
+- [X（@4989er）](https://x.com/4989er)：日々の技術実験や考察。
+- [note](https://note.com/4989er)：解説、実験の記録、日常の発信。
+- [GitHub（nuwaa）](https://github.com/nuwaa)：公開コードや技術活動。フォークしたリポジトリも含みます。
+
+<details class="page-contents">
+<summary>その他の発信・創作・交流</summary>
+<ul>
+<li><a href="https://bsky.app/profile/tominaga.bsky.social">Bluesky（tominaga.bsky.social）</a></li>
+<li><a href="https://www.tiktok.com/@jn1eep">TikTok（@jn1eep）</a></li>
+<li><a href="https://store.line.me/stickershop/author/5190056/ja">LINE STOREの作品一覧</a></li>
+<li><a href="https://vrchat.com/home/user/usr_11c0ef56-e8d2-44e5-acb2-5f0f8be8eb0c">VRChatのプロフィール</a></li>
+</ul>
+</details>
+
 ## 事業活動：永富華
 
 [永富華](https://yongfuhua.jp/)の事業として、企業向けのIT・AI・セキュリティ支援を行っています。事業の内容やご相談窓口は、永富華のウェブサイトをご覧ください。
@@ -71,3 +93,17 @@ Code for Japanの公式報告には、ハッカソン開催前から働きかけ
 デジタル推進委員としての活動と、永富華の営利事業は区別しています。本サイトでは個人の経歴と発信活動を紹介しています。
 
 [取材・掲載用のプロフィールを見る](/media-kit/) ／ [お問い合わせ](/contact/)
+
+## English / 繁體中文
+
+<section lang="en" aria-labelledby="about-en">
+<h3 id="about-en">English</h3>
+<p>Michiya Tominaga is a technologist connecting technology and society. His work covers cybersecurity, information literacy, generative AI, and communications.</p>
+<p>For media inquiries, writing, speaking, or content review, please use the <a href="/contact/">contact page</a>. For IT, AI, and security support, training, or advisory services, please visit <a href="https://yongfuhua.jp/">Yong Fu Hua</a>.</p>
+</section>
+
+<section lang="zh-Hant-TW" aria-labelledby="about-zh-tw">
+<h3 id="about-zh-tw">繁體中文（台灣）</h3>
+<p>富永道也是一位連結科技與社會的技術工作者，關注資安、資訊素養、生成式 AI 與通訊技術。</p>
+<p>採訪、撰稿、演講及內容審閱等個人名義的合作，請由<a href="/contact/">聯絡頁面</a>洽詢。企業與團體的 IT、AI、資安支援、培訓及顧問服務，請參閱<a href="https://yongfuhua.jp/">永富華</a>網站。</p>
+</section>
